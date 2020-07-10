@@ -1,4 +1,5 @@
-[leedavidcs.github.io](http://leedavidcs.github.io)
+## Resume
+[leedavidcs.github.io/leedavidcs](https://leedavidcs.github.io/leedavidcs)
 
 # About Me
 I am a Fullstack Engineer, with hands-on experience in start-ups, serving various key roles in

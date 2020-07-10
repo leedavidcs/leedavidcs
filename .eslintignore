@@ -1,0 +1,24 @@
+# Configs
+.jest
+.storybook
+.vscode
+tsconfig.json
+
+# Production
+build
+public
+
+# Dependencies
+node_modules
+
+# Testing
+storyshots
+coverage
+test-reports
+
+# Types
+**/*.d.ts
+
+# Misc
+service-worker.ts
+setup-tests.ts
