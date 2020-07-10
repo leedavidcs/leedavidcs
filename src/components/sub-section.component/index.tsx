@@ -11,12 +11,12 @@ interface IProps {
 
 export const SubSection: FC<IProps> = ({ children, className, info, title }) => {
 	return (
-		<div className={clsx(classes.root, className)}>
+		<section className={clsx(classes.root, className)}>
 			<h3 className={classes.header}>
 				<strong className={classes.title}>{title}</strong>
 				<span className={classes.info}>{info}</span>
 			</h3>
 			{children}
-		</div>
+		</section>
 	);
 };

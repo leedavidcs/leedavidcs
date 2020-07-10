@@ -1,0 +1,35 @@
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { Container } from ".";
+
+<Meta title="general/container" component={Container} />
+
+# Container
+
+## Description
+A container to arrange content in columns.
+
+## Props
+<Props of={Container} />
+<Props of={Container.Column} />
+
+## StandardStory
+<Preview>
+	<Story name="standard">
+		<div style={{ height: 500 }}>
+			<Container>
+				<Container.Column>
+					<div style={{ backgroundColor: "red", height: "100%" }} />
+				</Container.Column>
+				<Container.Column>
+					<div style={{ backgroundColor: "green", height: "100%" }} />
+				</Container.Column>
+				<Container.Column>
+					<div style={{ backgroundColor: "blue", height: "100%" }} />
+				</Container.Column>
+			</Container>
+		</div>
+	</Story>
+</Preview>
+
+### Source
+(see code in story)
