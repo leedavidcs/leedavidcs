@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import React, { FC, ReactNode } from "react";
 import type { IconType } from "react-icons";
-import styles from "./styles.module.scss";
+import classes from "./styles.module.scss";
 
 interface IProps {
 	children: ReactNode;
@@ -11,13 +11,11 @@ interface IProps {
 }
 
 export const Section: FC<IProps> = ({ children, className, icon, title }) => {
-	console.log(styles);
-
 	return (
-		<section className={clsx(styles.root, className)}>
-			<div className={styles.heading}>
+		<section className={clsx(classes.root, className)}>
+			<div className={classes.header}>
 				{icon && React.createElement(icon)}
-				<h2 className={styles.title}>{title}</h2>
+				<h2 className={classes.title}>{title}</h2>
 			</div>
 			{children}
 		</section>
