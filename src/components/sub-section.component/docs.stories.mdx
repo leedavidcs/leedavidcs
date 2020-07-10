@@ -1,0 +1,33 @@
+import { Section } from "@/components/section.component";
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import Faker from "faker";
+import { FaGraduationCap } from "react-icons/fa";
+import { SubSection } from ".";
+//
+Faker.seed(1);
+
+<Meta title="general/sub-section" component={SubSection} />
+
+# SubSection
+
+## Description
+A section of a section, which also contains a header and a block below for content.
+
+## Props
+<Props of={SubSection} />
+
+## StandardStory
+export const content0 = Faker.lorem.paragraph();
+
+<Preview>
+	<Story name="standard">
+		<Section icon={FaGraduationCap} title="Education">
+			<SubSection title="BS in Computer Science" info="Graduated: 2017-06">
+				<strong>University of California, San Diego</strong>
+			</SubSection>
+		</Section>
+	</Story>
+</Preview>
+
+### Source
+(see code in story)
