@@ -22,3 +22,4 @@ test-reports
 # Misc
 service-worker.ts
 setup-tests.ts
+*.js
