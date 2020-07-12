@@ -1,0 +1,20 @@
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { FaGraduationCap } from "react-icons/fa";
+import { IconText } from ".";
+
+<Meta title="general/icon-text" component={IconText} />
+
+# IconText
+
+## Description
+A line of text, with an icon to the left.
+
+## Props
+<Props of={IconText} />
+
+## StandardStory
+<Preview>
+	<Story name="standard">
+		<IconText icon={FaGraduationCap} text="University of California, San Diego" />
+	</Story>
+</Preview>

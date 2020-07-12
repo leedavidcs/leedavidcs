@@ -1,21 +1,36 @@
+import { IconText } from "@/components/icon-text.component";
 import clsx from "clsx";
 import React, { FC, ReactNode } from "react";
+import { FaCalendar, FaMapMarker } from "react-icons/fa";
 import classes from "./styles.module.scss";
 
 interface IProps {
-	children: ReactNode;
+	children?: ReactNode;
 	className?: string;
-	info?: string;
-	title: string;
+	locationInfo?: string;
+	subheader?: string;
+	timeInfo?: string;
+	title: ReactNode;
 }
 
-export const SubSection: FC<IProps> = ({ children, className, info, title }) => {
+export const SubSection: FC<IProps> = ({
+	children,
+	className,
+	locationInfo,
+	subheader,
+	timeInfo,
+	title
+}) => {
 	return (
 		<section className={clsx(classes.root, className)}>
 			<h3 className={classes.header}>
-				<strong className={classes.title}>{title}</strong>
-				<span className={classes.info}>{info}</span>
+				<strong>{title}</strong>
 			</h3>
+			<h4 className={classes.subheader}>
+				<strong className={classes.subheaderTitle}>{subheader}</strong>
+				{timeInfo && <IconText icon={FaCalendar} text={timeInfo} />}
+				{locationInfo && <IconText icon={FaMapMarker} text={locationInfo} />}
+			</h4>
 			{children}
 		</section>
 	);

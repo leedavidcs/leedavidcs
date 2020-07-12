@@ -3,16 +3,18 @@
 }
 
 .header {
-	display: flex;
-	margin: 0;
-	margin-bottom: 10px;
+	margin: 0 0 4px;
+	color: #2693DD;
 	font-size: 14px;
 }
 
-.title {
-	flex-grow: 1;
+.subheader {
+	display: flex;
+	margin: 0 0 4px;
+	font-size: 12px;
+	font-weight: normal;
 }
 
-.info {
-	text-align: right;
+.subheaderTitle {
+	flex-grow: 1;
 }
