@@ -29,7 +29,9 @@ export const SubSection: FC<IProps> = ({
 			<h4 className={classes.subheader}>
 				<strong className={classes.subheaderTitle}>{subheader}</strong>
 				{timeInfo && <IconText icon={FaCalendar} text={timeInfo} />}
-				{locationInfo && <IconText icon={FaMapMarker} text={locationInfo} />}
+				{locationInfo && (
+					<IconText className={classes.location} icon={FaMapMarker} text={locationInfo} />
+				)}
 			</h4>
 			{children}
 		</section>

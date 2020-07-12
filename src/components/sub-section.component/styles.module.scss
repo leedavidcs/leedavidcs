@@ -1,5 +1,5 @@
 .root {
-	padding: 6px 0;
+	padding: 0;
 }
 
 .header {
@@ -17,4 +17,8 @@
 
 .subheaderTitle {
 	flex-grow: 1;
+}
+
+.location {
+	margin-left: 8px;
 }
