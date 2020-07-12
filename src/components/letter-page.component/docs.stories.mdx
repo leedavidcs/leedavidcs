@@ -1,0 +1,29 @@
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import Faker from "faker";
+import { LetterPage } from ".";
+//
+Faker.seed(1);
+
+<Meta title="general/letter-page" component={LetterPage} />
+
+# LetterPage
+
+## Description
+A page in 8.5 x 11 in size.
+
+## Props
+<Props of={LetterPage} />
+
+## StandardStory
+export const content = Faker.lorem.paragraphs(5);
+
+<Preview>
+	<Story name="standard">
+		<LetterPage style={{ padding: "8mm", border: "1px solid black" }}>
+			<p>{content}</p>
+		</LetterPage>
+	</Story>
+</Preview>
+
+### Source
+(see code in story)
