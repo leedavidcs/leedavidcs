@@ -194,15 +194,6 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							timeInfo="Graduated: Jun 2017"
 						/>
 					</Section>
-					<Section title="Favorite Stack">
-						<SubSection subheader="Language">TypeScript</SubSection>
-						<SubSection subheader="Frontend">
-							React, JSS, Apollo Client, Storybook
-						</SubSection>
-						<SubSection subheader="Backend">
-							Next.js, Nexus, Prisma, Apollo Server
-						</SubSection>
-					</Section>
 				</div>
 			</div>
 		</LetterPage>
