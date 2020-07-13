@@ -13,7 +13,7 @@ interface IProps {
 export const IconText: FC<IProps> = ({ children, className, icon, text }) => {
 	return (
 		<div className={clsx(classes.root, className)}>
-			{icon && React.createElement(icon, { className: classes.icon })}
+			{icon && React.createElement(icon, { className: classes.icon, size: 12 })}
 			{text || children}
 		</div>
 	);

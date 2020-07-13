@@ -1,9 +1,10 @@
 :root {
-	--background: #fff;
+	--background: #cccccc;
 	--on-background: #000;
-	--brand: #7851a9;
+	--brand: #2693DD;
 	--on-brand: #fff;
 	--secondary: #2693DD;
+	--secondary-hover: #0077ad;
 }
 
 [data-theme="dark"] {
@@ -13,7 +14,13 @@
 
 body {
 	font-family: "Open Sans", "Helvetica-Neue", "Helvetica", "Arial", "Roboto";
-	background-color: var(--background);
+	background: linear-gradient(135deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
 	color: var(--on-background);
 	font-size: 12px;
+}
+
+.appRoot {
+	display: flex;
+	justify-content: center;
+	padding: 56px;
 }
