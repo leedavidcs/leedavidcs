@@ -1,3 +1,3 @@
 export const root: string;
-export const heading: string;
+export const header: string;
 export const title: string;

@@ -1,0 +1,51 @@
+.root {
+	padding: 6px 20px;
+}
+
+.header {
+	height: 130px;
+	padding: 6px;
+}
+
+.name {
+	margin: 0 0 6px;
+}
+
+.occupation {
+	margin: 0 0 20px;
+	color: var(--secondary);
+}
+
+.iconText:first-child {
+	margin-bottom: 6px;
+}
+
+.contactUrls {
+	display: flex;
+	width: 600px;
+
+	> div {
+		flex: 1 1 auto;
+	}
+}
+
+.jobType {
+	font-size: 12px;
+}
+
+.info {
+	display: flex;
+}
+
+.qualifications {
+	flex-grow: 1;
+	margin-right: 16px;
+}
+
+.skills {
+	width: 300px;
+}
+
+.skillsSection {
+	margin-bottom: 12px;
+}

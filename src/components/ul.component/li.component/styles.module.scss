@@ -1,0 +1,14 @@
+.root {
+	display: flex;
+
+	&::before {
+		content: "\2022";
+		font-weight: bold;
+		color: gray;
+		margin-right: 6px;
+	}
+
+	&:not(:last-child) {
+		margin-bottom: 4px;
+	}
+}

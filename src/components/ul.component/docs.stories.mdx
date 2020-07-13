@@ -1,0 +1,26 @@
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import { Ul } from ".";
+
+<Meta title="general/ul" component={Ul} />
+
+# Ul
+
+## Description
+Drop-in replacement for html's native `ul` component, with custom styUl.Ling (limited props).
+
+## Props
+<Props of={Ul} />
+
+## StandardStory
+<Preview>
+	<Story name="standard">
+		<Ul>
+			<Ul.Li>Apple</Ul.Li>
+			<Ul.Li>Banana</Ul.Li>
+			<Ul.Li>Cherry</Ul.Li>
+		</Ul>
+	</Story>
+</Preview>
+
+### Source
+(see code in story)

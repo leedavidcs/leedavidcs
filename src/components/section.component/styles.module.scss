@@ -1,0 +1,15 @@
+.root {
+	padding: 4px 6px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid black;
+	margin-bottom: 4px;
+}
+
+.title {
+	flex-grow: 1;
+	margin: 0;
+}

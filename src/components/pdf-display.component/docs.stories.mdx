@@ -1,0 +1,30 @@
+import { LetterPage } from "@/components/letter-page.component";
+import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
+import Faker from "faker";
+import { PdfDisplay } from ".";
+//
+Faker.seed(1);
+
+<Meta title="general/pdf-display" component={PdfDisplay} />
+
+# PdfDisplay
+
+## Description
+Container to display a React element, with a button to generate a pdf file.
+
+## Props
+<Props of={PdfDisplay} />
+
+## StandardStory
+export const content = Faker.lorem.paragraphs(5);
+
+<Preview>
+	<Story name="standard">
+		<PdfDisplay fileName="storybook_demo.pdf">
+			<LetterPage>{content}</LetterPage>
+		</PdfDisplay>
+	</Story>
+</Preview>
+
+### Source
+(see code in story)

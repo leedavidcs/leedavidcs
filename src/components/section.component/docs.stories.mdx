@@ -1,6 +1,6 @@
 import { Meta, Preview, Props, Story } from "@storybook/addon-docs/blocks";
 import Faker from "faker";
-import { FaSuitcase } from "react-icons/fa";
+import { FaGraduationCap, FaSuitcase } from "react-icons/fa";
 import { Section } from ".";
 //
 Faker.seed(1);
@@ -16,12 +16,17 @@ A section of a resume, containing a header and a block below for content.
 <Props of={Section} />
 
 ## StandardStory
-export const content = Faker.lorem.paragraph();
+export const content0 = Faker.lorem.paragraph();
+export const content1 = Faker.lorem.paragraph();
+export const pStyle = { margin: 0 };
 
 <Preview>
 	<Story name="standard">
 		<Section icon={FaSuitcase} title="Experience">
-			<p>{content}</p>
+			<p style={pStyle}>{content0}</p>
+		</Section>
+		<Section icon={FaGraduationCap} title="Education">
+			<p style={pStyle}>{content1}</p>
 		</Section>
 	</Story>
 </Preview>
