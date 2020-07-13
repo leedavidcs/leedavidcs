@@ -3,13 +3,23 @@
 }
 
 .downloadBtn {
+	box-sizing: border-box;
 	padding: 8px 6px;
 	border: 1px solid black;
 	border-radius: 4px;
-	background-color: var(--brand);
+	background-color: var(--secondary);
 	font-weight: bold;
 	color: var(--on-brand);
 	cursor: pointer;
+
+	&:focus {
+		outline: none;
+		box-shadow: 0 0 0 0.2rem rgba(38,147,221,0.5);
+	}
+
+	&:hover {
+		background-color: var(--secondary-hover);
+	}
 }
 
 .sourceContainer {
