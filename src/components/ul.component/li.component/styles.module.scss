@@ -3,10 +3,9 @@
 
 	&::before {
 		content: "\2022";
-		display: inline-block;
 		font-weight: bold;
 		color: gray;
-		width: 1em;
+		margin-right: 6px;
 	}
 
 	&:not(:last-child) {
