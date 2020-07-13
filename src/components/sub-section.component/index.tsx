@@ -7,9 +7,9 @@ import classes from "./styles.module.scss";
 interface IProps {
 	children?: ReactNode;
 	className?: string;
-	locationInfo?: string;
-	subheader?: string;
-	timeInfo?: string;
+	locationInfo?: ReactNode;
+	subheader?: ReactNode;
+	timeInfo?: ReactNode;
 	title: ReactNode;
 }
 
@@ -23,16 +23,16 @@ export const SubSection: FC<IProps> = ({
 }) => {
 	return (
 		<section className={clsx(classes.root, className)}>
-			<h3 className={classes.header}>
-				<strong>{title}</strong>
-			</h3>
+			<h3 className={classes.header}>{title}</h3>
 			<h4 className={classes.subheader}>
 				<strong className={classes.subheaderTitle}>{subheader}</strong>
-				{timeInfo && <IconText icon={FaCalendar} text={timeInfo} />}
-				{locationInfo && (
-					<IconText className={classes.location} icon={FaMapMarker} text={locationInfo} />
-				)}
 			</h4>
+			{(timeInfo || locationInfo) && (
+				<div className={classes.info}>
+					{timeInfo && <IconText icon={FaCalendar} text={timeInfo} />}
+					{locationInfo && <IconText icon={FaMapMarker} text={locationInfo} />}
+				</div>
+			)}
 			{children}
 		</section>
 	);

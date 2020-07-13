@@ -4,21 +4,27 @@
 
 .header {
 	margin: 0 0 4px;
-	color: var(--secondary);
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: normal;
 }
 
 .subheader {
 	display: flex;
 	margin: 0 0 4px;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: normal;
+	color: var(--secondary);
 }
 
 .subheaderTitle {
 	flex-grow: 1;
 }
 
-.location {
-	margin-left: 8px;
+.info {
+	display: flex;
+	min-width: 400px;
+
+	& > *:not(:last-child) {
+		margin-right: 8px;
+	}
 }
