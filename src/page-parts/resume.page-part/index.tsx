@@ -145,7 +145,7 @@ export const Resume: FC = () => {
 								most email-clients/browsers in React.
 							</Ul.Li>
 							<Ul.Li>
-								Migrated a serverless, koa + GraphQL SDL, mongoose repo to Next,
+								Migrated a Serverless, Koa + GraphQL SDL, Mongoose repo to Next,
 								Nexus + Prisma.
 							</Ul.Li>
 						</Ul>
@@ -172,18 +172,18 @@ export const Resume: FC = () => {
 							TypeScript, JavaScript
 						</SubSection>
 						<SubSection className={classes.skillsSection} subheader="Frontend">
-							HTML5, CSS3, React, Apollo Client, JSS, Storybook, Redux, RxJS, Sass,
+							HTML5, CSS3, React, Apollo Client, JSS, Sass, Storybook, Redux, RxJS,
 							Styled-Components
 						</SubSection>
 						<SubSection className={classes.skillsSection} subheader="Backend">
 							Node.js, Next.js, Serverless, GraphQL, GraphQL Nexus, Prisma, Apollo
-							Server, DataLoader, MongoDB, Postgres, Redis, Socket.io, Express, Koa
+							Server, DataLoader, MongoDB, Postgres, Redis, Socket.io, Koa, Express
 						</SubSection>
 						<SubSection className={classes.skillsSection} subheader="Misc.">
-							Webpack, Stripe, Twilio, Nodemailer, Mjml, ESLint
+							Webpack, Stripe, Twilio, Nodemailer, Mjml, Jest, ESLint
 						</SubSection>
 						<SubSection className={classes.skillsSection} subheader="Tooling">
-							Linux, VSCode, Git, Jira, Confluence, Docker, Travis, SonarQube,
+							Linux, VSCode, Git, Jira, Confluence, Trello, Docker, Travis, SonarQube,
 							Insomnia, Slack, Figma
 						</SubSection>
 					</Section>
@@ -193,6 +193,15 @@ export const Resume: FC = () => {
 							subheader="BS in Computer Science"
 							timeInfo="Graduated: Jun 2017"
 						/>
+					</Section>
+					<Section title="Favorite Stack">
+						<SubSection subheader="Language">TypeScript</SubSection>
+						<SubSection subheader="Frontend">
+							React, JSS, Apollo Client, Storybook
+						</SubSection>
+						<SubSection subheader="Backend">
+							Next.js, Nexus, Prisma, Apollo Server
+						</SubSection>
 					</Section>
 				</div>
 			</div>
