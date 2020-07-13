@@ -1,11 +1,11 @@
 import { IconText, LetterPage, Section, SubSection, Ul } from "@/components";
-import React, { FC, Fragment } from "react";
+import React, { forwardRef, Fragment } from "react";
 import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 import classes from "./styles.module.scss";
 
-export const Resume: FC = () => {
+export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 	return (
-		<LetterPage className={classes.root}>
+		<LetterPage className={classes.root} ref={ref}>
 			<header className={classes.header}>
 				<h1 className={classes.name}>David Lee</h1>
 				<h2 className={classes.occupation}>Software Engineer</h2>
@@ -55,8 +55,8 @@ export const Resume: FC = () => {
 								</Ul.Li>
 								<Ul.Li>
 									Rewrote the Stripe billing logic, and the Twilio communications
-									proxying service, after the legacy for both began to fail under
-									uncertain conditions.
+									proxying service, once the legacy for both began to fail more
+									frequently.
 								</Ul.Li>
 							</Ul>
 						</SubSection>
@@ -74,19 +74,19 @@ export const Resume: FC = () => {
 							<Ul>
 								<Ul.Li>
 									Implemented all client-side features for a 3D monogramming app
-									that supported more use-cases and produced higher-quality
+									that supported more use-cases and produced higher-fidelity
 									product images than Adobe&apos;s Scene7 for Williams-Sonoma.
 								</Ul.Li>
 								<Ul.Li>
 									Worked with project managers in driving requirements and
-									timelines; talked to clients directly to help with integration;
-									and organized and led meetings with QA, production and the
-									dev-ops teams to coordinate successful releases.
+									timelines; talked to clients directly to assist integration; and
+									organized and led meetings with QA, production and the dev-ops
+									teams to coordinate successful releases.
 								</Ul.Li>
 								<Ul.Li>
 									Created a RESTful service for Bassett Furniture&apos;s new
-									consumer site, that includes the customer/designer interaction
-									and employee authentication.
+									consumer site, including the customer/designer interactions and
+									authentication.
 								</Ul.Li>
 							</Ul>
 						</SubSection>
@@ -103,9 +103,9 @@ export const Resume: FC = () => {
 						>
 							<Ul>
 								<Ul.Li>
-									Created tools that automated the aggregation and produced
-									visualizations of market data and income models through use of
-									Bloomberg&apos;s API.
+									Created tools that aggregated and produced visualizations of
+									market data and income models through use of Bloomberg&apos;s
+									API.
 								</Ul.Li>
 							</Ul>
 						</SubSection>
@@ -135,10 +135,10 @@ export const Resume: FC = () => {
 					<Section title="Personal Projects">
 						<Ul>
 							<Ul.Li>
-								Built a serverless application where users can purchase credits to
-								spend on IexCloud stock data, perform paper trading, view data on a
-								data-grid, and build webhooks that allowed users to structure data
-								received through GraphQL.
+								Built a serverless application where users can purchase IexCloud
+								stock data, paper trade, view data on a data-grid, and build
+								webhooks that allowed users to structure data received through
+								GraphQL.
 							</Ul.Li>
 							<Ul.Li>
 								Leveraged Mjml-React to create visually consistent emails, across
@@ -207,4 +207,6 @@ export const Resume: FC = () => {
 			</div>
 		</LetterPage>
 	);
-};
+});
+
+Resume.displayName = "Resume";
