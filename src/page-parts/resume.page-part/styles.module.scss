@@ -12,7 +12,7 @@
 }
 
 .occupation {
-	margin: 0 0 16px;
+	margin: 0 0 20px;
 	color: var(--secondary);
 }
 
@@ -29,6 +29,10 @@
 	}
 }
 
+.jobType {
+	font-size: 12px;
+}
+
 .info {
 	display: flex;
 }
@@ -39,5 +43,9 @@
 }
 
 .skills {
-	width: 350px;
+	width: 300px;
+}
+
+.skillsSection {
+	margin-bottom: 12px;
 }
