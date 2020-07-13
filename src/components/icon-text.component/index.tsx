@@ -1,13 +1,13 @@
 import clsx from "clsx";
-import React, { FC, ReactElement } from "react";
+import React, { FC, ReactNode } from "react";
 import type { IconType } from "react-icons";
 import classes from "./styles.module.scss";
 
 interface IProps {
-	children?: ReactElement;
+	children?: ReactNode;
 	className?: string;
 	icon?: IconType;
-	text?: ReactElement;
+	text?: ReactNode;
 }
 
 export const IconText: FC<IProps> = ({ children, className, icon, text }) => {

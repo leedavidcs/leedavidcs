@@ -2,7 +2,7 @@
 [leedavidcs.github.io/leedavidcs](https://leedavidcs.github.io/leedavidcs)
 
 # About Me
-I am a Fullstack Engineer, with hands-on experience in start-ups, serving various key roles in
+I am a Full Stack Engineer, with hands-on experience in start-ups, serving various key roles in
 software development.
 
 Advanced expertise in TypeScript and Node.js development with React, Apollo + GraphQL.
