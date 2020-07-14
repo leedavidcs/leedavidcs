@@ -71,6 +71,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						<SubSection
 							title="University of California, San Diego"
 							subheader="BS in Computer Science"
+							subheaderColor={colors.secondary}
 							timeInfo="Graduated: June 2017"
 						/>
 					</Section>
@@ -188,7 +189,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							<Ul.Li>
 								Built a serverless application where users can purchase IexCloud
 								stock data, paper trade, view data on a data-grid, and build
-								webhooks that allowed users to structure data received through
+								webhooks that allows users to structure data received through
 								GraphQL.
 							</Ul.Li>
 							<Ul.Li>
