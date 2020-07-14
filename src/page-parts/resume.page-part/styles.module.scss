@@ -1,10 +1,11 @@
 .root {
-	padding: 6px 20px;
+	padding: 0;
+	height: 100%;
 }
 
 .header {
-	height: 130px;
-	padding: 6px;
+	margin: 6px;
+	border-bottom: 2px solid var(--brand);
 }
 
 .name {
@@ -12,21 +13,18 @@
 }
 
 .occupation {
-	margin: 0 0 20px;
-	color: var(--secondary);
+	margin: 0 0 10px;
+	color: var(--brand);
+}
+
+.contact {
+	& > *:not(:last-child) {
+		margin-bottom: 12px;
+	}
 }
 
 .iconText:first-child {
 	margin-bottom: 6px;
-}
-
-.contactUrls {
-	display: flex;
-	width: 600px;
-
-	> div {
-		flex: 1 1 auto;
-	}
 }
 
 .jobType {
@@ -35,15 +33,23 @@
 
 .info {
 	display: flex;
+
+	& > *:first-child {
+		margin-right: 16px;
+	}
 }
 
 .qualifications {
+	padding: 12px;
 	flex-grow: 1;
-	margin-right: 16px;
 }
 
 .skills {
-	width: 300px;
+	box-sizing: border-box;
+	padding: 12px;
+	background-color: var(--brand);
+	color: var(--on-secondary);
+	width: 240px;
 }
 
 .skillsSection {

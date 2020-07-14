@@ -1,0 +1,17 @@
+$background: #fff;
+$onBackground: #000;
+$brand: #663399;
+$onBrand: #fff;
+$secondary: #00ffff;
+$onSecondary: #fff;
+$hoverSecondary: #0077ad;
+
+:export {
+	background: $background;
+	onBackground: $onBackground;
+	brand: $brand;
+	onBrand: $onBrand;
+	secondary: $secondary;
+	onSecondary: $onSecondary;
+	hoverSecondary: $hoverSecondary;
+}
