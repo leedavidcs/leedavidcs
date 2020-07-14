@@ -1,35 +1,86 @@
+import colors from "@/colors.scss";
 import { IconText, LetterPage, Section, SubSection, Ul } from "@/components";
 import React, { forwardRef, Fragment } from "react";
-import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import classes from "./styles.module.scss";
 
 export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 	return (
 		<LetterPage className={classes.root} ref={ref}>
-			<header className={classes.header}>
-				<h1 className={classes.name}>David Lee</h1>
-				<h2 className={classes.occupation}>Software Engineer</h2>
-				<div className={classes.contactUrls}>
-					<div>
-						<IconText
-							className={classes.iconText}
-							icon={FaPhone}
-							text="(925)787-6363"
-						/>
-						<IconText icon={FaEnvelope} text="jobs.lee.david.cs@gmail.com" />
-					</div>
-					<div>
+			<div className={classes.info}>
+				<div className={classes.skills}>
+					<Section className={classes.contact} title="Contact">
 						<IconText
 							className={classes.iconText}
 							icon={FaGithub}
 							text="github.com/leedavidcs"
 						/>
 						<IconText icon={FaLinkedin} text="linkedin.com/in/leedavidcs" />
-					</div>
+						<IconText icon={FaEnvelope} text="jobs.lee.david.cs@gmail.com" />
+					</Section>
+					<Section title="Summary">
+						<p>
+							Full Stack engineer, with hands-on experience in start-ups, serving
+							various key roles in software development.
+						</p>
+						<p>
+							Advanced expertise in TypeScript and Node.js development with React,
+							Apollo + GraphQL.
+						</p>
+						<p>
+							Demonstrated skill in researching emerging technologies, identifying
+							opportunities to streamline existing processes and collaborating in a
+							dynamic environment.
+						</p>
+					</Section>
+					<Section title="Skills">
+						<SubSection
+							className={classes.skillsSection}
+							subheader="Languages"
+							subheaderColor={colors.secondary}
+						>
+							TypeScript, JavaScript
+						</SubSection>
+						<SubSection
+							className={classes.skillsSection}
+							subheader="Frontend"
+							subheaderColor={colors.secondary}
+						>
+							HTML5, CSS3, React, Apollo Client, JSS, Sass, Storybook, Redux, RxJS,
+							Styled-Components
+						</SubSection>
+						<SubSection
+							className={classes.skillsSection}
+							subheader="Backend"
+							subheaderColor={colors.secondary}
+						>
+							Node.js, Next.js, Serverless, GraphQL, Nexus, Prisma, Apollo Server,
+							DataLoader, MongoDB, Postgres, Redis, Socket.io, Koa, Express
+						</SubSection>
+						<SubSection
+							className={classes.skillsSection}
+							subheader="Tooling + Misc."
+							subheaderColor={colors.secondary}
+						>
+							Webpack, Stripe, Twilio, Nodemailer, Mjml, Jest, ESLint, Linux, VSCode,
+							Git, Jira, Confluence, Trello, Docker, Travis, SonarQube, Insomnia,
+							Slack, Figma
+						</SubSection>
+					</Section>
+					<Section title="Education">
+						<SubSection
+							title="University of California, San Diego"
+							subheader="BS in Computer Science"
+							timeInfo="Graduated: June 2017"
+						/>
+					</Section>
 				</div>
-			</header>
-			<div className={classes.info}>
+
 				<div className={classes.qualifications}>
+					<header className={classes.header}>
+						<h1 className={classes.name}>David Lee</h1>
+						<h2 className={classes.occupation}>Software Engineer</h2>
+					</header>
 					<Section title="Professional Experience">
 						<SubSection
 							title={
@@ -141,7 +192,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								GraphQL.
 							</Ul.Li>
 							<Ul.Li>
-								Leveraged Mjml-React to create visually consistent emails, across
+								Leveraged Mjml-React to create visually consistent emails across
 								most email-clients/browsers in React.
 							</Ul.Li>
 							<Ul.Li>
@@ -149,50 +200,6 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								Nexus + Prisma.
 							</Ul.Li>
 						</Ul>
-					</Section>
-				</div>
-				<div className={classes.skills}>
-					<Section title="Summary">
-						<p>
-							Full Stack engineer, with hands-on experience in start-ups, serving
-							various key roles in software development.
-						</p>
-						<p>
-							Advanced expertise in TypeScript and Node.js development with React,
-							Apollo + GraphQL.
-						</p>
-						<p>
-							Demonstrated skill in researching emerging technologies, identifying
-							opportunities to streamline existing processes and collaborating in a
-							dynamic environment.
-						</p>
-					</Section>
-					<Section title="Skills">
-						<SubSection className={classes.skillsSection} subheader="Languages">
-							TypeScript, JavaScript
-						</SubSection>
-						<SubSection className={classes.skillsSection} subheader="Frontend">
-							HTML5, CSS3, React, Apollo Client, JSS, Sass, Storybook, Redux, RxJS,
-							Styled-Components
-						</SubSection>
-						<SubSection className={classes.skillsSection} subheader="Backend">
-							Node.js, Next.js, Serverless, GraphQL, GraphQL Nexus, Prisma, Apollo
-							Server, DataLoader, MongoDB, Postgres, Redis, Socket.io, Koa, Express
-						</SubSection>
-						<SubSection className={classes.skillsSection} subheader="Misc.">
-							Webpack, Stripe, Twilio, Nodemailer, Mjml, Jest, ESLint
-						</SubSection>
-						<SubSection className={classes.skillsSection} subheader="Tooling">
-							Linux, VSCode, Git, Jira, Confluence, Trello, Docker, Travis, SonarQube,
-							Insomnia, Slack, Figma
-						</SubSection>
-					</Section>
-					<Section title="Education">
-						<SubSection
-							title="University of California, San Diego"
-							subheader="BS in Computer Science"
-							timeInfo="Graduated: Jun 2017"
-						/>
 					</Section>
 				</div>
 			</div>

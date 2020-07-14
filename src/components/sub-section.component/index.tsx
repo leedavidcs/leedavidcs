@@ -9,6 +9,7 @@ interface IProps {
 	className?: string;
 	locationInfo?: ReactNode;
 	subheader?: ReactNode;
+	subheaderColor?: string;
 	timeInfo?: ReactNode;
 	title?: ReactNode;
 }
@@ -18,13 +19,18 @@ export const SubSection: FC<IProps> = ({
 	className,
 	locationInfo,
 	subheader,
+	subheaderColor,
 	timeInfo,
 	title
 }) => {
 	return (
 		<section className={clsx(classes.root, className)}>
 			{title && <h3 className={classes.header}>{title}</h3>}
-			{subheader && <h4 className={classes.subheader}>{subheader}</h4>}
+			{subheader && (
+				<h4 className={classes.subheader} style={{ color: subheaderColor }}>
+					{subheader}
+				</h4>
+			)}
 			{(timeInfo || locationInfo) && (
 				<div className={classes.info}>
 					{timeInfo && <IconText icon={FaCalendarAlt} text={timeInfo} />}
