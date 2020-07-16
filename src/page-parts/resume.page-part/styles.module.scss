@@ -1,10 +1,6 @@
 .root {
 	display: flex;
 	padding: 0;
-
-	& > *:first-child {
-		margin-right: 16px;
-	}
 }
 
 .header {
@@ -43,6 +39,7 @@
 .skills {
 	box-sizing: border-box;
 	padding: 12px;
+	margin-right: 16px;
 	background-color: var(--brand);
 	color: var(--on-secondary);
 	width: 240px;

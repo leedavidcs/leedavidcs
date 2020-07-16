@@ -123,7 +123,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						<Ul>
 							<Ul.Li>
 								Implemented all client-side features for a 3D monogramming app that
-								supported more use-cases and produced higher-fidelity product images
+								supports more use-cases and produces higher-fidelity product images
 								than Adobe&apos;s Scene7 for Williams-Sonoma.
 							</Ul.Li>
 							<Ul.Li>
