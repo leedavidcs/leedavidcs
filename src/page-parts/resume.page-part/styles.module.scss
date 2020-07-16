@@ -1,6 +1,10 @@
 .root {
+	display: flex;
 	padding: 0;
-	height: 100%;
+
+	& > *:first-child {
+		margin-right: 16px;
+	}
 }
 
 .header {
@@ -31,14 +35,6 @@
 	font-size: 12px;
 }
 
-.info {
-	display: flex;
-
-	& > *:first-child {
-		margin-right: 16px;
-	}
-}
-
 .qualifications {
 	padding: 12px;
 	flex-grow: 1;
@@ -50,6 +46,7 @@
 	background-color: var(--brand);
 	color: var(--on-secondary);
 	width: 240px;
+	height: 100%;
 }
 
 .skillsSection {
