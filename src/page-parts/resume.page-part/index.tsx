@@ -9,13 +9,9 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 		<LetterPage className={classes.root} ref={ref}>
 			<div className={classes.skills}>
 				<Section className={classes.contact} title="Contact">
-					<IconText
-						className={classes.iconText}
-						icon={FaGithub}
-						text="github.com/leedavidcs"
-					/>
-					<IconText icon={FaLinkedin} text="linkedin.com/in/leedavidcs" />
 					<IconText icon={FaEnvelope} text="jobs.lee.david.cs@gmail.com" />
+					<IconText icon={FaGithub} text="github.com/leedavidcs" />
+					<IconText icon={FaLinkedin} text="linkedin.com/in/leedavidcs" />
 				</Section>
 				<Section title="Summary">
 					<p>
