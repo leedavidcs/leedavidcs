@@ -38,6 +38,13 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					</SubSection>
 					<SubSection
 						className={classes.skillsSection}
+						subheader="Frameworks"
+						subheaderColor={colors.secondary}
+					>
+						Next.js, Gatsby
+					</SubSection>
+					<SubSection
+						className={classes.skillsSection}
 						subheader="Frontend"
 						subheaderColor={colors.secondary}
 					>
@@ -49,16 +56,17 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						subheader="Backend"
 						subheaderColor={colors.secondary}
 					>
-						Node.js, Next.js, Serverless, GraphQL, Nexus, Prisma, Apollo Server,
-						DataLoader, MongoDB, Postgres, Redis, Socket.io, Koa, Express
+						Node.js, Serverless, GraphQL, Nexus, Prisma, Apollo Server, DataLoader,
+						MongoDB, Postgres, Redis, Socket.io, Koa, Express
 					</SubSection>
 					<SubSection
 						className={classes.skillsSection}
 						subheader="Tooling + Misc."
 						subheaderColor={colors.secondary}
 					>
-						Webpack, Stripe, Twilio, Nodemailer, Mjml, Jest, ESLint, Linux, VSCode, Git,
-						Jira, Confluence, Trello, Docker, Travis, SonarQube, Insomnia, Slack, Figma
+						Figma, Webpack, Jest, ESLint, Linux, Git, Github Actions, Jira, Confluence,
+						Trello, Docker, Vercel, Travis, SonarQube, Insomnia, Slack, Stripe, Twilio,
+						Nodemailer, Mjml
 					</SubSection>
 				</Section>
 				<Section title="Education">
@@ -179,9 +187,9 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 				<Section title="Personal Projects">
 					<Ul>
 						<Ul.Li>
-							Built a serverless application where users can purchase IexCloud stock
-							data, paper trade, view data on a data-grid, and build webhooks that
-							allows users to structure data received through GraphQL.
+							Worked on a serverless application where users can purchase IexCloud
+							stock data, paper trade, view data on a data-grid, and build webhooks
+							that allows users to structure data received through GraphQL.
 						</Ul.Li>
 						<Ul.Li>
 							Leveraged Mjml-React to create visually consistent emails across most
