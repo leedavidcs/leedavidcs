@@ -93,7 +93,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							</Fragment>
 						}
 						subheader="Onfleet"
-						timeInfo="Jan 2019 - Dec 2019"
+						timeInfo="Jan 2019 - Present"
 						locationInfo="San Francisco, CA"
 					>
 						<Ul>
