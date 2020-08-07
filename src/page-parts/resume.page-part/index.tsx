@@ -48,8 +48,8 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						subheader="Frontend"
 						subheaderColor={colors.secondary}
 					>
-						HTML5, CSS3, React, Apollo Client, JSS, Sass, Storybook, Redux, RxJS,
-						Styled-Components
+						HTML5, CSS3, React, Apollo Client, Sass, JSS, Storybook, Redux, RxJS,
+						Styled-Components, SEO
 					</SubSection>
 					<SubSection
 						className={classes.skillsSection}
@@ -93,23 +93,24 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							</Fragment>
 						}
 						subheader="Onfleet"
-						timeInfo="Jan 2019 - Present"
+						timeInfo="Jan 2019 - Jan 2020"
 						locationInfo="San Francisco, CA"
 					>
 						<Ul>
 							<Ul.Li>
-								Directed the migration of the legacy CoffeeScript + Restify backend
-								monolith to TypeScript, Serverless + GraphQL with increases to
-								integration and unit testing.
+								Reimplemented legacy UI (previously written in ES5, AngularJS +
+								LESS) to TypeScript, React + Styled-Components, with snapshot
+								testing through Jest + Storybook.
 							</Ul.Li>
 							<Ul.Li>
-								Moved legacy ES5, AngularJS + LESS code to TypeScript, React +
-								Styled-Components, with snapshot testing through Jest + Storybook.
+								Advocated then directed the migration of the legacy CoffeeScript +
+								Restify backend monolith to TypeScript, Serverless + GraphQL with
+								increases to integration and unit testing.
 							</Ul.Li>
 							<Ul.Li>
 								Rewrote the Stripe billing logic, and the Twilio communications
-								proxying service, once the legacy for both began to fail more
-								frequently.
+								proxying service, once the legacy for both experienced production
+								breakages.
 							</Ul.Li>
 						</Ul>
 					</SubSection>
@@ -126,9 +127,9 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					>
 						<Ul>
 							<Ul.Li>
-								Implemented all client-side features for a 3D monogramming app that
-								supports more use-cases and produces higher-fidelity product images
-								than Adobe&apos;s Scene7 for Williams-Sonoma.
+								Implemented all client-side features for a 3D monogramming web-app
+								that supports more use-cases and produces higher-fidelity product
+								images than Adobe&apos;s Scene7 for Williams-Sonoma.
 							</Ul.Li>
 							<Ul.Li>
 								Worked with project managers in driving requirements and timelines;
@@ -156,8 +157,9 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					>
 						<Ul>
 							<Ul.Li>
-								Created tools that aggregated and produced visualizations of market
-								data and income models through use of Bloomberg&apos;s API.
+								Improved financial analyst workflows by leveraging 3rd-party market
+								data APIs to create tools that performed special aggregations and
+								produced visualizations of market data.
 							</Ul.Li>
 						</Ul>
 					</SubSection>
@@ -174,12 +176,12 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					>
 						<Ul>
 							<Ul.Li>
-								Collaborated with department managers to gather technical
-								requirements and decide on wireframes and timelines.
+								Gathered technical requirements and timelines, and produced
+								wireframes to present to department managers.
 							</Ul.Li>
 							<Ul.Li>
-								Built data visualization modules for the company&apos;s revamped
-								site.
+								Built several pages and data visualization modules for the
+								company&apos;s revamped website.
 							</Ul.Li>
 						</Ul>
 					</SubSection>
@@ -187,9 +189,15 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 				<Section title="Personal Projects">
 					<Ul>
 						<Ul.Li>
+							Currently building an administrative app for businesses in a private
+							repo on a 2-person team. Responsible for half of both design in Figma
+							and frontend implementation; and solely responsible for infrastructure,
+							backend, and SEO.
+						</Ul.Li>
+						<Ul.Li>
 							Worked on a serverless application where users can purchase IexCloud
 							stock data, paper trade, view data on a data-grid, and build webhooks
-							that allows users to structure data received through GraphQL.
+							where data can be structured through GraphQL.
 						</Ul.Li>
 						<Ul.Li>
 							Leveraged Mjml-React to create visually consistent emails across most
