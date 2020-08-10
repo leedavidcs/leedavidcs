@@ -13,21 +13,24 @@ existing processes and collaborating in a dynamic environment.
 # Private Stack
 Below is my current, preferred stack for personal projects.
 
-I definitely recommend trying this combination out, as I believe it offers great developer
-experience when it comes to extensibility, maintainability and overall productivity.
+I definitely recommend trying this combination out, as I believe it offers a great developer
+experience when it comes to extensibility, maintainability and productivity.
 
 ## Language
 * [TypeScript](https://www.typescriptlang.org/)
 
-## Backend
+## Frameworks
 * [Next.js](https://nextjs.org/)
+* [Gatsby](https://www.gatsbyjs.org/)
+
+## Backend
+* [Apollo Server](https://www.apollographql.com/docs/apollo-server/)
 * [Prisma](https://www.prisma.io/)
 * [Nexus.js](https://nexusjs.org/)
-* [Apollo Server](https://www.apollographql.com/docs/apollo-server/)
 
 ## Frontend
 * [React.js](https://reactjs.org/)
-* [JSS](https://cssinjs.org/)
+* [Linaria](https://linaria.now.sh/) + [JSS](https://cssinjs.org/)
 * [Apollo Client](https://www.apollographql.com/docs/react/)
 
 ## Testing
@@ -48,4 +51,4 @@ experience when it comes to extensibility, maintainability and overall productiv
 * [ESLint](https://eslint.org/)
   * Linter for JavaScript/TypeScript/GraphQL
 * [Webpack](https://webpack.js.org/)
-  * Module bundler and task runner
+  * Module bundler
