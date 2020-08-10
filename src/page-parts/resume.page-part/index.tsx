@@ -1,6 +1,7 @@
 import colors from "@/colors.scss";
 import { IconText, LetterPage, Section, SubSection, Ul } from "@/components";
-import React, { forwardRef, Fragment } from "react";
+import clsx from "clsx";
+import React, { forwardRef } from "react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import classes from "./styles.module.scss";
 
@@ -8,12 +9,12 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 	return (
 		<LetterPage className={classes.root} ref={ref}>
 			<div className={classes.skills}>
-				<Section className={classes.contact} title="Contact">
+				<Section className={clsx(classes.skillsSection, classes.contact)} title="Contact">
 					<IconText icon={FaEnvelope} text="jobs.lee.david.cs@gmail.com" />
 					<IconText icon={FaGithub} text="github.com/leedavidcs" />
 					<IconText icon={FaLinkedin} text="linkedin.com/in/leedavidcs" />
 				</Section>
-				<Section title="Summary">
+				<Section className={classes.skillsSection} title="Summary">
 					<p>
 						Full Stack engineer, with hands-on experience in start-ups, serving various
 						key roles in software development.
@@ -28,31 +29,31 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						dynamic environment.
 					</p>
 				</Section>
-				<Section title="Skills">
+				<Section className={classes.skillsSection} title="Skills">
 					<SubSection
-						className={classes.skillsSection}
+						className={classes.skillsSubsection}
 						subheader="Languages"
 						subheaderColor={colors.secondary}
 					>
 						TypeScript, JavaScript
 					</SubSection>
 					<SubSection
-						className={classes.skillsSection}
+						className={classes.skillsSubsection}
 						subheader="Frameworks"
 						subheaderColor={colors.secondary}
 					>
 						Next.js, Gatsby
 					</SubSection>
 					<SubSection
-						className={classes.skillsSection}
+						className={classes.skillsSubsection}
 						subheader="Frontend"
 						subheaderColor={colors.secondary}
 					>
-						HTML5, CSS3, React, Apollo Client, Sass, JSS, Storybook, Redux, RxJS,
-						Styled-Components, SEO
+						HTML5, CSS3, React, Apollo Client, Sass, Storybook, Redux, SEO, CSS-in-JS
+						(JSS, Styled-Components, Linaria, Emotion)
 					</SubSection>
 					<SubSection
-						className={classes.skillsSection}
+						className={classes.skillsSubsection}
 						subheader="Backend"
 						subheaderColor={colors.secondary}
 					>
@@ -60,7 +61,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						MongoDB, Postgres, Redis, Socket.io, Koa, Express
 					</SubSection>
 					<SubSection
-						className={classes.skillsSection}
+						className={classes.skillsSubsection}
 						subheader="Tooling + Misc."
 						subheaderColor={colors.secondary}
 					>
@@ -69,7 +70,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						Nodemailer, Mjml
 					</SubSection>
 				</Section>
-				<Section title="Education">
+				<Section className={classes.skillsSection} title="Education">
 					<SubSection
 						title="University of California, San Diego"
 						subheader="BS in Computer Science"
@@ -87,10 +88,10 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 				<Section title="Professional Experience">
 					<SubSection
 						title={
-							<Fragment>
+							<>
 								Full Stack Engineer&nbsp;
 								<span className={classes.jobType}>(full-time)</span>
-							</Fragment>
+							</>
 						}
 						subheader="Onfleet"
 						timeInfo="Jan 2019 - Jan 2020"
@@ -116,10 +117,10 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					</SubSection>
 					<SubSection
 						title={
-							<Fragment>
+							<>
 								Software Engineer&nbsp;
 								<span className={classes.jobType}>(full-time)</span>
-							</Fragment>
+							</>
 						}
 						subheader="Outward Inc."
 						timeInfo="Jan 2018 - Jan 2019"
@@ -146,10 +147,10 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					</SubSection>
 					<SubSection
 						title={
-							<Fragment>
+							<>
 								Software Engineer&nbsp;
 								<span className={classes.jobType}>(contract)</span>
-							</Fragment>
+							</>
 						}
 						subheader="Newport Asia LLC"
 						timeInfo="June 2016 - Dec 2017"
@@ -165,10 +166,10 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					</SubSection>
 					<SubSection
 						title={
-							<Fragment>
+							<>
 								Software Engineer&nbsp;
 								<span className={classes.jobType}>(intern)</span>
-							</Fragment>
+							</>
 						}
 						subheader="Bosera Int'l"
 						timeInfo="June 2015 - Aug 2015"

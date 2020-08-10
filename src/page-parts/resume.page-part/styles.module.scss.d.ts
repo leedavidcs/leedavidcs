@@ -7,3 +7,4 @@ export const jobType: string;
 export const qualifications: string;
 export const skills: string;
 export const skillsSection: string;
+export const skillsSubsection: string;
