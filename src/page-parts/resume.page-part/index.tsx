@@ -159,8 +159,8 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						<Ul>
 							<Ul.Li>
 								Improved financial analyst workflows by leveraging 3rd-party market
-								data APIs to create tools that performed special aggregations and
-								produced visualizations of market data.
+								data APIs and creating tools that aggregated and produced
+								visualizations of market data.
 							</Ul.Li>
 						</Ul>
 					</SubSection>
@@ -172,7 +172,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							</>
 						}
 						subheader="Bosera Int'l"
-						timeInfo="June 2015 - Aug 2015"
+						timeInfo="June 2015 - June 2016"
 						locationInfo="Central, Hong Kong"
 					>
 						<Ul>
@@ -190,10 +190,10 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 				<Section title="Personal Projects">
 					<Ul>
 						<Ul.Li>
-							Currently building an administrative app for businesses in a private
+							Chief artitect of an admininstrative app for businesses in a private
 							repo on a 2-person team. Responsible for half of both design in Figma
-							and frontend implementation; and solely responsible for infrastructure,
-							backend, and SEO.
+							and frontend implementation; and currently responsible for all of
+							infrastructure, backend and operations.
 						</Ul.Li>
 						<Ul.Li>
 							Worked on a serverless application where users can purchase IexCloud
