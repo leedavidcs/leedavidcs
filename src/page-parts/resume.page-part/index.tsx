@@ -136,7 +136,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								Worked with project managers in driving requirements and timelines;
 								talked to clients directly to assist integration; and organized and
 								led meetings with QA, production and the dev-ops teams to coordinate
-								successful releases.
+								successful releases and milestones.
 							</Ul.Li>
 							<Ul.Li>
 								Created a RESTful service for Bassett Furniture&apos;s new consumer
