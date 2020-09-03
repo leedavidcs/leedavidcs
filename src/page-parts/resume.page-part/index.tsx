@@ -49,16 +49,16 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						subheader="Frontend"
 						subheaderColor={colors.secondary}
 					>
-						HTML5, CSS3, React, Apollo Client, Sass, Storybook, Redux, SEO, CSS-in-JS
-						(JSS, Styled-Components, Linaria, Emotion)
+						HTML5, CSS3, React, Apollo Client, Storybook, Redux, Sass, CSS-in-JS (JSS,
+						Styled-Components, Linaria, Emotion)
 					</SubSection>
 					<SubSection
 						className={classes.skillsSubsection}
 						subheader="Backend"
 						subheaderColor={colors.secondary}
 					>
-						Node.js, Serverless, GraphQL, Nexus, Prisma, Apollo Server, DataLoader,
-						MongoDB, Postgres, Redis, Socket.io, Koa, Express
+						Node.js, GraphQL, Apollo Server, Nexus, Prisma, DataLoader, MongoDB,
+						Postgres, Redis, Socket.io, Serverless, Koa, Express
 					</SubSection>
 					<SubSection
 						className={classes.skillsSubsection}
@@ -196,9 +196,9 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							infrastructure, backend and operations.
 						</Ul.Li>
 						<Ul.Li>
-							Worked on a serverless application where users can purchase IexCloud
-							stock data, paper trade, view data on a data-grid, and build webhooks
-							where data can be structured through GraphQL.
+							Worked on an application where users can purchase IexCloud stock data,
+							paper trade, view data on a data-grid, and build webhooks where data can
+							be structured through GraphQL.
 						</Ul.Li>
 						<Ul.Li>
 							Leveraged Mjml-React to create visually consistent emails across most
