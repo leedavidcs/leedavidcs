@@ -109,7 +109,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								increases to integration and unit testing.
 							</Ul.Li>
 							<Ul.Li>
-								Rewrote both the Stripe billing, and the Twilio voice and SMS
+								Rewrote both the Stripe billing and the Twilio voice and SMS
 								proxying services, once the legacy for both experienced production
 								breakages.
 							</Ul.Li>
