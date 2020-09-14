@@ -158,9 +158,9 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					>
 						<Ul>
 							<Ul.Li>
-								Improved financial analyst workflows by leveraging 3rd-party market
-								data APIs and creating tools that aggregated and produced
-								visualizations of market data.
+								Built internal products and tools for financial analysts, most of
+								which aggregated then produced visualizations of market data using
+								3rd-party APIs.
 							</Ul.Li>
 						</Ul>
 					</SubSection>
