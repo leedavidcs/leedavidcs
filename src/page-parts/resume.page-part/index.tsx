@@ -101,12 +101,13 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							<Ul.Li>
 								Reimplemented legacy UI (previously written in ES5, AngularJS +
 								LESS) to TypeScript, React + Styled-Components, with snapshot
-								testing through Jest + Storybook.
+								testing through Jest + Storybook
 							</Ul.Li>
 							<Ul.Li>
 								Advocated then directed the migration of the legacy CoffeeScript +
-								Restify backend monolith to TypeScript, Serverless + GraphQL with
-								increases to integration and unit testing.
+								Restify backend monolith to TypeScript, Apollo-Server-Koa,
+								Serverless-Http + GraphQL with increases to integration and unit
+								testing.
 							</Ul.Li>
 							<Ul.Li>
 								Rewrote both the Stripe billing and the Twilio voice and SMS
@@ -130,7 +131,8 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							<Ul.Li>
 								Implemented all client-side features for a 3D monogramming web-app
 								that supports more use-cases and produces higher-fidelity product
-								images than Adobe&apos;s Scene7 for Williams-Sonoma.
+								images than Adobe&apos;s Scene7 for Williams-Sonoma. (built with
+								React, TypeScript, JSS, Apollo, GraphQL, Pixi, Babylon)
 							</Ul.Li>
 							<Ul.Li>
 								Worked with project managers in driving requirements and timelines;
@@ -141,7 +143,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							<Ul.Li>
 								Created a RESTful service for Bassett Furniture&apos;s new consumer
 								site, including the customer/designer interactions and
-								authentication.
+								authentication. (built with TypeScript + Koa)
 							</Ul.Li>
 						</Ul>
 					</SubSection>
@@ -160,7 +162,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							<Ul.Li>
 								Built internal products and tools for financial analysts, most of
 								which aggregated then produced visualizations of market data using
-								3rd-party APIs.
+								3rd-party APIs. (built with React + Express)
 							</Ul.Li>
 						</Ul>
 					</SubSection>
@@ -192,13 +194,14 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						<Ul.Li>
 							Chief artitect of an admininstrative app for businesses in a private
 							repo on a 2-person team. Responsible for half of both design in Figma
-							and frontend implementation; and currently responsible for all of
-							infrastructure, backend and operations.
+							and frontend; and currently responsible for all of infrastructure,
+							backend and operations. (built with TypeScript, Next, Apollo, Nexus +
+							Prisma)
 						</Ul.Li>
 						<Ul.Li>
-							Worked on an application where users can purchase IexCloud stock data,
-							paper trade, view data on a data-grid, and build webhooks where data can
-							be structured through GraphQL.
+							Worked on an app where users can purchase IexCloud data, paper trade,
+							view data on a data-grid, and build webhooks with GraphQL. (built with
+							TypeScript, Next, Apollo, Nexus + Prisma)
 						</Ul.Li>
 						<Ul.Li>
 							Leveraged Mjml-React to create visually consistent emails across most
