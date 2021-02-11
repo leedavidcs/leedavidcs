@@ -1,2 +1,2 @@
-export const root: string;
 export const reactLogoSpin: string;
+export const root: string;

@@ -1,4 +1,4 @@
-import colors from "@/colors.scss";
+import * as colors from "@/colors";
 import { IconText, LetterPage, Section, SubSection, Ul } from "@/components";
 import clsx from "clsx";
 import React, { forwardRef } from "react";
@@ -50,7 +50,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						subheaderColor={colors.secondary}
 					>
 						HTML5, CSS3, React, Apollo Client, Storybook, Redux, Sass, CSS-in-JS (JSS,
-						Styled-Components, Linaria, Emotion)
+						Styled-Components, Linaria, Emotion), Framer-Motion, Visx
 					</SubSection>
 					<SubSection
 						className={classes.skillsSubsection}
@@ -65,9 +65,9 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						subheader="Tooling + Misc."
 						subheaderColor={colors.secondary}
 					>
-						Figma, Webpack, Jest, ESLint, Linux, Git, Github Actions, Jira, Confluence,
-						Trello, Docker, Vercel, Travis, SonarQube, Insomnia, Slack, Stripe, Twilio,
-						Nodemailer, Mjml
+						Figma, Webpack, Rollup, Jest, ESLint, Linux, Git, Github Actions, Jira,
+						Confluence, Trello, Docker, Vercel, Travis, SonarQube, Insomnia, Slack,
+						Algolia, Stripe, Twilio, Nodemailer, Mjml, Google Maps
 					</SubSection>
 				</Section>
 				<Section className={classes.skillsSection} title="Education">
@@ -79,13 +79,52 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					/>
 				</Section>
 			</div>
-
 			<div className={classes.qualifications}>
 				<header className={classes.header}>
 					<h1 className={classes.name}>David Lee</h1>
 					<h2 className={classes.occupation}>Software Engineer</h2>
 				</header>
-				<Section title="Professional Experience">
+				<Section className={classes.professionalExperience} title="Professional Experience">
+					<SubSection
+						title="Senior Full Stack Engineer / Sole Proprietor"
+						subheader="Toastel"
+						timeInfo="Jan 2020 - Present"
+						locationInfo="San Francisco, CA"
+					>
+						<Ul>
+							<Ul.Li>
+								Built Toastel using a React, TypeScript, Apollo, Next.js, Linaria,
+								Nexus + Prisma stack. Designed in Figma, and created an atomic
+								design system without using any UI-toolkit or CSS framework.
+							</Ul.Li>
+							<Ul.Li>
+								Created a charting library with visx, a feature-rich data-grid
+								library with react-window, responsive emails with mjml-react,
+								animations and gestures with framer-motion, etc.
+							</Ul.Li>
+							<Ul.Li>
+								Coded over 200 components and 400 stories on Storybook, with
+								snapshot testing on Jest.
+							</Ul.Li>
+							<Ul.Li>
+								Achieved 90-100 on all Google Lighthouse metrics (excluding PWA).
+							</Ul.Li>
+							<Ul.Li>
+								Implemented JWT authentication, with refresh-tokens and blacklisting
+								with Redis.
+							</Ul.Li>
+							<Ul.Li>
+								Created internal GraphQL-Nexus plugins to rate-limit resolvers,
+								validate inputs, and prevent malicious queries with complexity and
+								depth limits.
+							</Ul.Li>
+							<Ul.Li>
+								Implemented full-text search with Algolia, sales-tax calculations
+								with Octobat, subscriptions and payouts with Stripe, image uploads
+								with AWS S3, and timezones with Google Maps API.
+							</Ul.Li>
+						</Ul>
+					</SubSection>
 					<SubSection
 						title={
 							<>
@@ -105,14 +144,13 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							</Ul.Li>
 							<Ul.Li>
 								Advocated then directed the migration of the legacy CoffeeScript +
-								Restify backend monolith to TypeScript, Apollo-Server-Koa,
-								Serverless-Http + GraphQL with increases to integration and unit
-								testing.
+								Restify monolith to TypeScript, Apollo, Serverless-Http + GraphQL
+								with increases to integration and unit testing.
 							</Ul.Li>
 							<Ul.Li>
 								Rewrote both the Stripe billing and the Twilio voice and SMS
-								proxying services, once the legacy for both experienced production
-								breakages.
+								proxying services to support more features, be more declarative and
+								be more testable.
 							</Ul.Li>
 						</Ul>
 					</SubSection>
@@ -131,8 +169,8 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							<Ul.Li>
 								Implemented all client-side features for a 3D monogramming web-app
 								that supports more use-cases and produces higher-fidelity product
-								images than Adobe&apos;s Scene7 for Williams-Sonoma. (built with
-								React, TypeScript, JSS, Apollo, GraphQL, Pixi, Babylon)
+								images than Adobe&apos;s Scene7 for Williams-Sonoma (built with
+								React, TypeScript, JSS, Apollo, GraphQL, Pixi, Babylon).
 							</Ul.Li>
 							<Ul.Li>
 								Worked with project managers in driving requirements and timelines;
@@ -143,7 +181,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							<Ul.Li>
 								Created a RESTful service for Bassett Furniture&apos;s new consumer
 								site, including the customer/designer interactions and
-								authentication. (built with TypeScript + Koa)
+								authentication (built with TypeScript + Koa).
 							</Ul.Li>
 						</Ul>
 					</SubSection>
@@ -154,18 +192,10 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								<span className={classes.jobType}>(contract)</span>
 							</>
 						}
-						subheader="Newport Asia LLC"
+						subheader="Newport Asia"
 						timeInfo="June 2016 - Dec 2017"
 						locationInfo="San Francisco, CA"
-					>
-						<Ul>
-							<Ul.Li>
-								Built internal products and tools for financial analysts, most of
-								which aggregated then produced visualizations of market data using
-								3rd-party APIs. (built with React + Express)
-							</Ul.Li>
-						</Ul>
-					</SubSection>
+					/>
 					<SubSection
 						title={
 							<>
@@ -173,45 +203,10 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								<span className={classes.jobType}>(intern)</span>
 							</>
 						}
-						subheader="Bosera Int'l"
+						subheader="Bosera International"
 						timeInfo="June 2015 - June 2016"
 						locationInfo="Central, Hong Kong"
-					>
-						<Ul>
-							<Ul.Li>
-								Gathered technical requirements and timelines, and produced
-								wireframes to present to department managers.
-							</Ul.Li>
-							<Ul.Li>
-								Built several pages and data visualization modules for the
-								company&apos;s revamped website.
-							</Ul.Li>
-						</Ul>
-					</SubSection>
-				</Section>
-				<Section title="Personal Projects">
-					<Ul>
-						<Ul.Li>
-							Chief artitect of an admininstrative app for businesses in a private
-							repo on a 2-person team. Responsible for half of both design in Figma
-							and frontend; and currently responsible for all of infrastructure,
-							backend and operations. (built with TypeScript, Next, Apollo, Nexus +
-							Prisma)
-						</Ul.Li>
-						<Ul.Li>
-							Worked on an app where users can purchase IexCloud data, paper trade,
-							view data on a data-grid, and build webhooks with GraphQL. (built with
-							TypeScript, Next, Apollo, Nexus + Prisma)
-						</Ul.Li>
-						<Ul.Li>
-							Leveraged Mjml-React to create visually consistent emails across most
-							email-clients/browsers in React.
-						</Ul.Li>
-						<Ul.Li>
-							Migrated a Serverless, Koa + GraphQL SDL, Mongoose repo to Next, Nexus +
-							Prisma.
-						</Ul.Li>
-					</Ul>
+					/>
 				</Section>
 			</div>
 		</LetterPage>
