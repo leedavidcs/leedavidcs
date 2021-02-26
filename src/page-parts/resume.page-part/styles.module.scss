@@ -23,7 +23,7 @@
 
 .contact {
 	& > *:not(:last-child) {
-		margin-bottom: 12px;
+		margin-bottom: 4px;
 	}
 }
 
@@ -49,12 +49,23 @@
 	padding-bottom: 8px;
 }
 
+.summary {
+	& > p {
+		margin-top: 0;
+		margin-bottom: 8px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
 .skillsSubsection {
 	margin-bottom: 8px;
 }
 
 .professionalExperience {
 	& > *:not(:last-child) {
-		margin-bottom: 16px;
+		margin-bottom: 4px;
 	}
 }

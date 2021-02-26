@@ -2,26 +2,31 @@ import * as colors from "@/colors";
 import { IconText, LetterPage, Section, SubSection, Ul } from "@/components";
 import clsx from "clsx";
 import React, { forwardRef } from "react";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBreadSlice, FaEnvelope, FaGithub, FaLinkedin, FaUser } from "react-icons/fa";
 import classes from "./styles.module.scss";
 
 export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 	return (
 		<LetterPage className={classes.root} ref={ref}>
 			<div className={classes.skills}>
-				<Section className={clsx(classes.skillsSection, classes.contact)} title="Contact">
+				<Section
+					className={clsx(classes.skillsSection, classes.contact)}
+					title="Contact + Sites"
+				>
 					<IconText icon={FaEnvelope} text="jobs.lee.david.cs@gmail.com" />
-					<IconText icon={FaGithub} text="github.com/leedavidcs" />
 					<IconText icon={FaLinkedin} text="linkedin.com/in/leedavidcs" />
+					<IconText icon={FaGithub} text="github.com/leedavidcs" />
+					<IconText icon={FaUser} text="leedavidcs.dev" />
+					<IconText icon={FaBreadSlice} text="toastel.com" />
 				</Section>
-				<Section className={classes.skillsSection} title="Summary">
+				<Section className={clsx(classes.skillsSection, classes.summary)} title="Summary">
 					<p>
-						Full Stack engineer, with hands-on experience in start-ups, serving various
+						Full Stack Engineer, with hands-on experience in start-ups, serving various
 						key roles in software development.
 					</p>
 					<p>
-						Advanced expertise in TypeScript and Node.js development with React, Apollo
-						+ GraphQL.
+						Advanced expertise in TypeScript and Node.js development with React and
+						GraphQL.
 					</p>
 					<p>
 						Demonstrated skill in researching emerging technologies, identifying
@@ -49,25 +54,26 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						subheader="Frontend"
 						subheaderColor={colors.secondary}
 					>
-						HTML5, CSS3, React, Apollo Client, Storybook, Redux, Sass, CSS-in-JS (JSS,
-						Styled-Components, Linaria, Emotion), Framer-Motion, Visx
+						HTML5, CSS3, React, Apollo Client, Urql, CSS-in-JS (Styled-Components,
+						Linaria, Emotion), Styled-System, Sass, Redux, Visx, Framer-Motion,
+						Storybook, React-Testing-Library
 					</SubSection>
 					<SubSection
 						className={classes.skillsSubsection}
 						subheader="Backend"
 						subheaderColor={colors.secondary}
 					>
-						Node.js, GraphQL, Apollo Server, Nexus, Prisma, DataLoader, MongoDB,
-						Postgres, Redis, Socket.io, Serverless, Koa, Express
+						Node.js, GraphQL, Nexus, Prisma, Apollo Server, GraphQL-Tools, Koa, Express,
+						Redis, Postgres, MongoDB, Socket.io, Serverless, DataLoader
 					</SubSection>
 					<SubSection
 						className={classes.skillsSubsection}
 						subheader="Tooling + Misc."
 						subheaderColor={colors.secondary}
 					>
-						Figma, Webpack, Rollup, Jest, ESLint, Linux, Git, Github Actions, Jira,
-						Confluence, Trello, Docker, Vercel, Travis, SonarQube, Insomnia, Slack,
-						Algolia, Stripe, Twilio, Nodemailer, Mjml, Google Maps
+						Linux, Git, Figma, Webpack, Rollup, GraphQL-Codegen, Docker, Trello, Jira,
+						Confluence, Nodemailer, Mjml, Algolia, Stripe, Twilio, Google Maps, Github
+						Actions, Travis, Jest, ESLint, Prettier, Lerna, Vercel, Insomnia
 					</SubSection>
 				</Section>
 				<Section className={classes.skillsSection} title="Education">
@@ -107,11 +113,11 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								snapshot testing on Jest.
 							</Ul.Li>
 							<Ul.Li>
-								Achieved 90-100 on all Google Lighthouse metrics (excluding PWA).
+								Achieved 95-100 on all Google Lighthouse metrics (excluding PWA).
 							</Ul.Li>
 							<Ul.Li>
-								Implemented JWT authentication, with refresh-tokens and blacklisting
-								with Redis.
+								Implemented JWT authentication, with refresh-tokens and
+								token-blacklisting with Redis.
 							</Ul.Li>
 							<Ul.Li>
 								Created internal GraphQL-Nexus plugins to rate-limit resolvers,
@@ -119,9 +125,19 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								depth limits.
 							</Ul.Li>
 							<Ul.Li>
-								Implemented full-text search with Algolia, sales-tax calculations
-								with Octobat, subscriptions and payouts with Stripe, image uploads
+								Implemented full-text search with Algolia, emails with Gmail and
+								Nodemailer, subscriptions and payouts with Stripe, image uploads
 								with AWS S3, and timezones with Google Maps API.
+							</Ul.Li>
+							<Ul.Li>
+								Set up a CI pipeline, with lint, test, build and deploy steps to
+								preview / staging / production environments using Github Actions,
+								Vercel, ESLint and Jest.
+							</Ul.Li>
+							<Ul.Li>
+								Experimented with several other, different tech-stacks with
+								technologies including Mongoose, Sequelize, Serverless-Http, Koa.js,
+								GraphQL-Tools, Gatsby, Create-React-App and more.
 							</Ul.Li>
 						</Ul>
 					</SubSection>
