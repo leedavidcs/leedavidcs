@@ -9,3 +9,4 @@ export const root: string;
 export const skills: string;
 export const skillsSection: string;
 export const skillsSubsection: string;
+export const summary: string;
