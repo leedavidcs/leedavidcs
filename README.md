@@ -2,37 +2,28 @@
 [leedavidcs.github.io/leedavidcs](https://leedavidcs.github.io/leedavidcs)
 
 # About Me
-I am a Full Stack Engineer, with hands-on experience in start-ups, serving various key roles in
-software development.
+I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and occasionally working on [Toastel.com](https://toastel.com).
 
-Advanced expertise in TypeScript and Node.js development with React, Apollo + GraphQL.
+Learn more at: [leedavidcs.dev](https://leedavidcs.dev).
 
-Demonstrated skill in researching emerging technologies, identifying opportunities to streamline
-existing processes and collaborating in a dynamic environment.
-
-# Private Stack
-Below is my current, preferred stack for personal projects.
-
-I definitely recommend trying this combination out, as I believe it offers a great developer
-experience when it comes to extensibility, maintainability and productivity.
+# Project Stack
+Below is the base stack that I'm currently using for personal projects. Definitely try it out.
 
 ## Language
-* [TypeScript](https://www.typescriptlang.org/) - **Strictly-better** JavaScript with static types  
+* [TypeScript](https://www.typescriptlang.org/) - JavaScript superset with static types  
 [![TypeScript](https://img.shields.io/npm/v/typescript)](https://www.npmjs.com/package/typescript)
 
 ## Frameworks
 * [Next.js](https://nextjs.org/) - Static/SSR React framework  
 [![Next.js](https://img.shields.io/npm/v/next)](https://www.npmjs.com/package/next)
-* [Gatsby](https://www.gatsbyjs.org/) - Static/SSR React framework  
-[![Gatsby](https://img.shields.io/npm/v/gatsby)](https://www.npmjs.com/package/gatsby)
 
 ## Frontend
 * [React.js](https://reactjs.org/) - Library to build UI components  
 [![React.js](https://img.shields.io/npm/v/react)](https://www.npmjs.com/package/react)
 * [Linaria](https://linaria.now.sh/) - Zero-runtime CSS-in-JS  
 [![Linaria](https://img.shields.io/npm/v/linaria)](https://www.npmjs.com/package/linaria)
-* [Apollo Client](https://www.apollographql.com/docs/react/) - GraphQL client & global state management  
-[![Apollo Client](https://img.shields.io/npm/v/@apollo/client)](https://www.npmjs.com/package/@apollo/client)
+* [Urql](https://formidable.com/open-source/urql/) - GraphQL client  
+[![Urql](https://img.shields.io/npm/v/urql)](https://www.npmjs.com/package/@apollo/client)
 
 ## Backend
 * [Apollo Server](https://www.apollographql.com/docs/apollo-server/) - GraphQL server  
@@ -40,10 +31,10 @@ experience when it comes to extensibility, maintainability and productivity.
 * [GraphQL](https://graphql.org/) - Query language for APIs  
 [![GraphQL](https://img.shields.io/npm/v/graphql)](https://www.npmjs.com/package/graphql)
 * [Prisma](https://www.prisma.io/) - Database toolkit  
-[![Prisma CLI](https://img.shields.io/npm/v/@prisma/cli)](https://www.npmjs.com/package/@prisma/cli)
+[![Prisma CLI](https://img.shields.io/npm/v/@prisma/cli)](https://www.npmjs.com/package/prisma)
 [![Prisma Client](https://img.shields.io/npm/v/@prisma/client)](https://www.npmjs.com/package/@prisma/client)
 * [Nexus.js](https://nexusjs.org/) - GraphQL framework  
-[![Nexus Schema](https://img.shields.io/npm/v/@nexus/schema)](https://www.npmjs.com/package/@nexus/schema)
+[![Nexus Schema](https://img.shields.io/npm/v/@nexus/schema)](https://www.npmjs.com/package/nexus)
 [![Nexus Prisma](https://img.shields.io/npm/v/nexus-plugin-prisma)](https://www.npmjs.com/package/nexus-plugin-prisma)
 
 ## Testing
@@ -57,59 +48,18 @@ experience when it comes to extensibility, maintainability and productivity.
 * [Vercel](https://vercel.com) - Cloud platform for static sites and serverless functions
 * [Redis Labs](https://redislabs.com) - Redis on the cloud
 * [RDS](https://aws.amazon.com/rds/) - Relational database on the cloud (where my postgres goes)
+* [S3](https://aws.amazon.com/s3/) - Simple storage service
+* [Algolia](https://www.algolia.com/) - Text search
 
-# Additional Recommendations (interesting?)
-Below are things I've used either in projects or work, and can attest to the utility and developer experience.
+<br />
 
-### Sorted alphabetically
-* [DayJS](https://day.js.org/) - Fast 2kB alternative to Moment.js  
-[![DayJS](https://img.shields.io/npm/v/dayjs)](https://www.npmjs.com/package/dayjs)
-* [ESLint](https://eslint.org/) - Linter for JavaScript/TypeScript/GraphQL/MDX  
-[![ESLint](https://img.shields.io/npm/v/eslint)](https://www.npmjs.com/package/eslint)
-* [GraphQL-Codegen](https://graphql-code-generator.com/) - Generate typed code for the client, from your GraphQL schema  
-[![GraphQL-Codegen](https://img.shields.io/npm/v/@graphql-codegen/cli)](https://www.npmjs.com/package/@graphql-codegen/cli)
-* [GraphQL-Depth-Limit](https://www.npmjs.com/package/graphql-depth-limit) - Limit GraphQL request complexity by depth  
-[![GraphQL-Depth-Limit](https://img.shields.io/npm/v/graphql-depth-limit)](https://www.npmjs.com/package/graphql-depth-limit)
-* [GraphQL-Query-Complexity](https://www.npmjs.com/package/graphql-query-complexity) - Add complexity analysis and rejection to GraphQL queries and mutations  
-[![GraphQL-Query-Complexity](https://img.shields.io/npm/v/graphql-query-complexity)](https://www.npmjs.com/package/graphql-query-complexity)
-* [GraphQL-Rate-Limit](https://www.npmjs.com/package/graphql-depth-limit) - Add rate limiting to GraphQL queries and mutations  
-[![GraphQL-Rate-Limit](https://img.shields.io/npm/v/graphql-rate-limit)](https://www.npmjs.com/package/graphql-rate-limit)
-* [IoRedis](https://www.npmjs.com/package/ioredis) - Full-featured Redis client for Node.js, with promises  
-[![IoRedis](https://img.shields.io/npm/v/ioredis)](https://www.npmjs.com/package/ioredis)
-* [Mjml-React](https://github.com/wix-incubator/mjml-react) - Write visually consistent and responsive emails in React  
-[![Mjml-React](https://img.shields.io/npm/v/mjml-react)](https://www.npmjs.com/package/mjml-react)
-  * Note: **Be warned** that this library uses [`fs`](https://nodejs.org/api/fs.html), which will require an additional build-step when building with storybook.
-* [P-Queue](https://www.npmjs.com/package/p-queue) - Promise queue with concurrency control for rate-limiting async operations  
-[![P-Queue](https://img.shields.io/npm/v/p-queue)](https://www.npmjs.com/package/p-queue)
-* [Polished](https://www.npmjs.com/package/polished) - Sass-style helper functions and mixins for JavaScript styles  
-[![Polished](https://img.shields.io/npm/v/polished)](https://www.npmjs.com/package/polished)
-* [PopperJS](https://popper.js.org/) / [React-Popper](https://popper.js.org/react-popper/) - Tooltip/popover positioning engine  
-[![PopperJS](https://img.shields.io/npm/v/@popperjs/core)](https://www.npmjs.com/package/@popperjs/core)
-[![ReactPopper](https://img.shields.io/npm/v/react-popper)](https://www.npmjs.com/package/react-popper)
-* [Preact](https://swr.vercel.app/) - 3kB near drop-in replacement for React.js  
-[![Preact](https://img.shields.io/npm/v/preact)](https://www.npmjs.com/package/preact)
-* [React-Hook-Form](https://react-hook-form.com/) - Much easier forms and validation in React  
-[![React-Hook-Form](https://img.shields.io/npm/v/react-hook-form)](https://www.npmjs.com/package/react-hook-form)
-* [React-JSS](https://cssinjs.org/react-jss/) - Runtime CSS-in-JS  
-[![React-JSS](https://img.shields.io/npm/v/react-jss)](https://www.npmjs.com/package/react-jss)
-* [Redux / Redux-Toolkit](https://redux.js.org/) - Global state management (if Apollo-Client is not enough)  
-[![Redux](https://img.shields.io/npm/v/redux)](https://www.npmjs.com/package/redux)
-[![Redux-Toolkit](https://img.shields.io/npm/v/@reduxjs/toolkit)](https://www.npmjs.com/package/@reduxjs/toolkit)
-  * Note: I strongly **DO NOT** recommended if all managed state can be handled well-enough with `useReducer`, `useContext` and/or caching.
-  * Note: Only recommended if application requires really complex state that cannot easily be simplified and benefits greatly from DevTools + time travel.
-* [Stripe](https://stripe.com/) - Online payments processing  
-[![Stripe](https://img.shields.io/npm/v/stripe)](https://www.npmjs.com/package/stripe)
-[![Stripe.js](https://img.shields.io/npm/v/@stripe/stripe-js)](https://www.npmjs.com/package/@stripe/stripe-js)
-[![React-Stripe.js](https://img.shields.io/npm/v/@stripe/react-stripe-js)](https://www.npmjs.com/package/@stripe/react-stripe-js)
-* [SWR](https://swr.vercel.app/) - React hooks for remote data fetching  
-[![SWR](https://img.shields.io/npm/v/swr)](https://www.npmjs.com/package/swr)
-* [Webpack](https://webpack.js.org/) - Module bundler  
-[![Webpack](https://img.shields.io/npm/v/webpack)](https://www.npmjs.com/package/webpack)
-* [Yup](https://github.com/jquense/yup) -  Schema-builder for value/input validation  
-[![Yup](https://img.shields.io/npm/v/yup)](https://www.npmjs.com/package/yup)
-  * Note: **Be warned**, if used on the front-end, [lodash](https://www.npmjs.com/package/lodash) will be added to the client bundle.
-  * Note: Consider using [`dynamic`](https://nextjs.org/docs/advanced-features/dynamic-import) or [`lazy`](https://reactjs.org/docs/code-splitting.html#reactlazy) when writing components using this.
+<p>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=leedavidcs&title=Commit,PullRequest,Repositories,Issues,Followers&theme=onedark" />
+  </a>
+</p>
 
-# Misc
-* [GitKraken](https://www.gitkraken.com/) - Git client for Windows, Mac & Linux
-* [React folder stucture](https://www.robinwieruch.de/react-folder-structure) - Some good ideas, but I don't fully follow
+<div>
+  <img height="200" alt="leedavidcs stats" src="https://github-readme-stats.vercel.app/api?username=leedavidcs&show_icons=true&theme=onedark" />
+  <img height="200" alt="leedavidcs top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leedavidcs&layout=compact&theme=onedark" />
+</div>
