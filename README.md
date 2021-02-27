@@ -60,6 +60,6 @@ Below is the base stack that I'm currently using for personal projects. Definite
 </p>
 
 <div>
-  <img height="200" alt="leedavidcs stats" src="https://github-readme-stats.vercel.app/api?username=leedavidcs&show_icons=true&theme=onedark" />
-  <img height="200" alt="leedavidcs top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leedavidcs&layout=compact&theme=onedark" />
+  <img height="170" align="left" alt="leedavidcs stats" src="https://github-readme-stats.vercel.app/api?username=leedavidcs&show_icons=true&theme=onedark" />
+  <img alt="leedavidcs top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leedavidcs&layout=compact&theme=onedark" />
 </div>
