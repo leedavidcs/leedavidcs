@@ -100,13 +100,17 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						<Ul>
 							<Ul.Li>
 								Built Toastel using a React, TypeScript, Apollo, Next.js, Linaria,
-								Nexus + Prisma stack. Designed in Figma, and created an atomic
-								design system without using any UI-toolkit or CSS framework.
+								Nexus + Prisma stack.
 							</Ul.Li>
 							<Ul.Li>
-								Created a charting library with visx, a feature-rich data-grid
-								library with react-window, responsive emails with mjml-react,
-								animations and gestures with framer-motion, etc.
+								Designed in Figma, and created an atomic design system without using
+								any component libraries or CSS framework, while considering
+								accessibility and minimizing client bundle size.
+							</Ul.Li>
+							<Ul.Li>
+								Authored an internal charting library with Visx, a data-grid library
+								with React-Window, responsive emails with Mjml-React, animations and
+								gestures with Framer-Motion, and more.
 							</Ul.Li>
 							<Ul.Li>
 								Coded over 200 components and 400 stories on Storybook, with
@@ -116,28 +120,24 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								Achieved 95-100 on all Google Lighthouse metrics (excluding PWA).
 							</Ul.Li>
 							<Ul.Li>
-								Implemented JWT authentication, with refresh-tokens and
-								token-blacklisting with Redis.
+								Implemented JWT auth with refresh-tokens, blacklisting and retries
+								using Redis + Apollo Link.
 							</Ul.Li>
 							<Ul.Li>
-								Created internal GraphQL-Nexus plugins to rate-limit resolvers,
+								Created several GraphQL-Nexus plugins to rate-limit resolvers,
 								validate inputs, and prevent malicious queries with complexity and
 								depth limits.
 							</Ul.Li>
 							<Ul.Li>
-								Implemented full-text search with Algolia, emails with Gmail and
-								Nodemailer, subscriptions and payouts with Stripe, image uploads
-								with AWS S3, and timezones with Google Maps API.
+								Implemented all GraphQL resolvers for full-text search with Algolia,
+								emails with Nodemailer, subscriptions and payouts with Stripe,
+								presigned URL image uploads with AWS S3, business hour timezones
+								with Google Maps, and entity CRUD with Prisma.
 							</Ul.Li>
 							<Ul.Li>
-								Set up a CI pipeline, with lint, test, build and deploy steps to
-								preview / staging / production environments using Github Actions,
-								Vercel, ESLint and Jest.
-							</Ul.Li>
-							<Ul.Li>
-								Experimented with several other, different tech-stacks with
-								technologies including Mongoose, Sequelize, Serverless-Http, Koa.js,
-								GraphQL-Tools, Gatsby, Create-React-App and more.
+								Set up an automated CI pipeline, with lint, test, build and deploy
+								steps to preview / staging / production environments using Github
+								Actions, Vercel, ESLint and Jest.
 							</Ul.Li>
 						</Ul>
 					</SubSection>
