@@ -1,10 +1,22 @@
-## Resume
-[leedavidcs.github.io/leedavidcs](https://leedavidcs.github.io/leedavidcs)
+<h1 align="center">Hi 👋, I'm David Lee</h1>
 
-# About Me
 I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and occasionally working on [Toastel.com](https://toastel.com).
 
 Learn more at: [leedavidcs.dev](https://leedavidcs.dev).
+
+<p>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=leedavidcs&title=Commit,PullRequest,Repositories,Issues,Followers&theme=onedark" />
+  </a>
+</p>
+
+<div>
+  <img height="170" align="left" alt="leedavidcs stats" src="https://github-readme-stats.vercel.app/api?username=leedavidcs&show_icons=true&theme=onedark" />
+  <img alt="leedavidcs top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leedavidcs&layout=compact&theme=onedark" />
+</div>
+
+## Resume
+[leedavidcs.github.io/leedavidcs](https://leedavidcs.github.io/leedavidcs)
 
 # Project Stack
 Below is the base stack that I'm currently using for personal projects. Definitely try it out.
@@ -50,16 +62,3 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [RDS](https://aws.amazon.com/rds/) - Relational database on the cloud (where my postgres goes)
 * [S3](https://aws.amazon.com/s3/) - Simple storage service
 * [Algolia](https://www.algolia.com/) - Text search
-
-<br />
-
-<p>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=leedavidcs&title=Commit,PullRequest,Repositories,Issues,Followers&theme=onedark" />
-  </a>
-</p>
-
-<div>
-  <img height="170" align="left" alt="leedavidcs stats" src="https://github-readme-stats.vercel.app/api?username=leedavidcs&show_icons=true&theme=onedark" />
-  <img alt="leedavidcs top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leedavidcs&layout=compact&theme=onedark" />
-</div>
