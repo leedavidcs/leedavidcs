@@ -92,7 +92,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 				</header>
 				<Section className={classes.professionalExperience} title="Professional Experience">
 					<SubSection
-						title="Senior Full Stack Engineer / Sole Proprietor"
+						title="Senior Full Stack Engineer"
 						subheader="Toastel"
 						timeInfo="Jan 2020 - Present"
 						locationInfo="San Francisco, CA"
