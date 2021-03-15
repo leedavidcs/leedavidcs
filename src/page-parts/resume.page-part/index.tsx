@@ -104,7 +104,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							</Ul.Li>
 							<Ul.Li>
 								Designed in Figma, and created an atomic design system without using
-								any component libraries or CSS framework, while considering
+								any component libraries or CSS framework, while improving
 								accessibility and minimizing client bundle size.
 							</Ul.Li>
 							<Ul.Li>
@@ -113,7 +113,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								gestures with Framer-Motion, and more.
 							</Ul.Li>
 							<Ul.Li>
-								Coded over 200 components and 400 stories on Storybook, with
+								Coded over 300 components and 400 stories on Storybook, with
 								snapshot testing on Jest.
 							</Ul.Li>
 							<Ul.Li>
