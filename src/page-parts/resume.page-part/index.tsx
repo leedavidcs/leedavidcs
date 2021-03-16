@@ -189,10 +189,11 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								React, TypeScript, JSS, Apollo, GraphQL, Pixi, Babylon).
 							</Ul.Li>
 							<Ul.Li>
-								Worked with project managers in driving requirements and timelines;
-								talked to clients directly to assist integration; and organized and
-								led meetings with QA, production and the dev-ops teams to coordinate
-								successful releases and milestones.
+								Mentored Junior Frontend Engineers; worked with project managers in
+								driving requirements and timelines; talked to clients directly to
+								assist integration; and organized and led meetings with QA,
+								production and the dev-ops teams to coordinate successful releases
+								and milestones.
 							</Ul.Li>
 							<Ul.Li>
 								Created a RESTful service for Bassett Furniture&apos;s new consumer
