@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm David Lee</h1>
 
-I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and occasionally working on [Toastel.com](https://toastel.com).
+I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [Toastel.com](https://toastel.com).
 
 Learn more at: [leedavidcs.dev](https://leedavidcs.dev).
 
