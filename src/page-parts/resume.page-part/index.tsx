@@ -29,9 +29,8 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						GraphQL.
 					</p>
 					<p>
-						Demonstrated skill in researching emerging technologies, identifying
-						opportunities to streamline existing processes and collaborating in a
-						dynamic environment.
+						Demonstrated skill in researching emerging technologies, streamlining
+						existing processes, improving SEO and collaborating in dynamic environments.
 					</p>
 				</Section>
 				<Section className={classes.skillsSection} title="Skills">
@@ -55,8 +54,8 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						subheaderColor={colors.secondary}
 					>
 						HTML5, CSS3, React, Apollo Client, Urql, CSS-in-JS (Styled-Components,
-						Linaria, Emotion), Styled-System, Sass, Redux, Visx, Framer-Motion,
-						Storybook, React-Testing-Library
+						Linaria, Emotion), Sass, Redux, Visx, D3, Framer-Motion, Storybook,
+						React-Three-Fiber, React-Window
 					</SubSection>
 					<SubSection
 						className={classes.skillsSubsection}
@@ -92,9 +91,33 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 				</header>
 				<Section className={classes.professionalExperience} title="Professional Experience">
 					<SubSection
+						title="Senior Frontend Engineer"
+						subheader="Openbase"
+						timeInfo="Apr 2021 - Present"
+						locationInfo="San Francisco, CA"
+					>
+						<Ul>
+							<Ul.Li>
+								Single-handedly ported the frontend from a SPA-Parcel app to
+								Next.js, TypeScript, Apollo, Styled-Components, GraphQL-Codegen and
+								Jest in my first month. Simultaneously improved web vitals, a11y and
+								SEO on Lighthouse to &gt; 90% on all metrics, and added 70%
+								test-coverage.
+							</Ul.Li>
+							<Ul.Li>
+								Created a redirect service with Serverless to handle redirects from
+								old URLs for SEO.
+							</Ul.Li>
+							<Ul.Li>
+								Built pages for users to browse npm packages, that also improve
+								crawlability for GoogleBot.
+							</Ul.Li>
+						</Ul>
+					</SubSection>
+					<SubSection
 						title="Senior Full Stack Engineer"
 						subheader="Toastel"
-						timeInfo="Jan 2020 - Present"
+						timeInfo="Jan 2020 - Mar 2021"
 						locationInfo="San Francisco, CA"
 					>
 						<Ul>
@@ -154,9 +177,8 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					>
 						<Ul>
 							<Ul.Li>
-								Reimplemented legacy UI (previously written in ES5, AngularJS +
-								LESS) to TypeScript, React + Styled-Components, with snapshot
-								testing through Jest + Storybook
+								Migrated the ES5 + AngularJS frontend to TypeScript, React,
+								Styled-Components and Jest.
 							</Ul.Li>
 							<Ul.Li>
 								Advocated then directed the migration of the legacy CoffeeScript +
@@ -202,28 +224,6 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							</Ul.Li>
 						</Ul>
 					</SubSection>
-					<SubSection
-						title={
-							<>
-								Software Engineer&nbsp;
-								<span className={classes.jobType}>(contract)</span>
-							</>
-						}
-						subheader="Newport Asia"
-						timeInfo="June 2016 - Dec 2017"
-						locationInfo="San Francisco, CA"
-					/>
-					<SubSection
-						title={
-							<>
-								Software Engineer&nbsp;
-								<span className={classes.jobType}>(intern)</span>
-							</>
-						}
-						subheader="Bosera International"
-						timeInfo="June 2015 - June 2016"
-						locationInfo="Central, Hong Kong"
-					/>
 				</Section>
 			</div>
 		</LetterPage>
