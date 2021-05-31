@@ -114,7 +114,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								old URLs for SEO.
 							</Ul.Li>
 							<Ul.Li>
-								Built pages for users to browse npm packages, that also improve
+								Built pages for users to browse npm packages, that also improved
 								crawlability for GoogleBot.
 							</Ul.Li>
 						</Ul>
