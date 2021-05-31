@@ -91,7 +91,12 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 				</header>
 				<Section className={classes.professionalExperience} title="Professional Experience">
 					<SubSection
-						title="Senior Frontend Engineer"
+						title={
+							<>
+								Senior Frontend Engineer&nbsp;
+								<span className={classes.jobType}>(full-time)</span>
+							</>
+						}
 						subheader="Openbase"
 						timeInfo="Apr 2021 - Present"
 						locationInfo="San Francisco, CA"
@@ -115,7 +120,12 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						</Ul>
 					</SubSection>
 					<SubSection
-						title="Senior Full Stack Engineer"
+						title={
+							<>
+								Senior Full Stack Engineer&nbsp;
+								<span className={classes.jobType}>(full-time)</span>
+							</>
+						}
 						subheader="Toastel"
 						timeInfo="Jan 2020 - Mar 2021"
 						locationInfo="San Francisco, CA"
