@@ -103,11 +103,10 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					>
 						<Ul>
 							<Ul.Li>
-								Single-handedly ported the frontend from a SPA-Parcel app to
-								Next.js, TypeScript, Apollo, Styled-Components, GraphQL-Codegen and
-								Jest in my first month. Simultaneously improved web vitals, a11y and
-								SEO on Lighthouse to &gt; 90% on all metrics, and added 70%
-								test-coverage.
+								Ported the frontend from a SPA-Parcel app to Next.js, TypeScript,
+								Apollo, Styled-Components, GraphQL-Codegen and Jest in my first
+								month. Simultaneously improved web vitals, a11y and SEO on
+								Lighthouse to &gt; 90% on all metrics, and added 70% test-coverage.
 							</Ul.Li>
 							<Ul.Li>
 								Created a redirect service with Serverless to handle redirects from
