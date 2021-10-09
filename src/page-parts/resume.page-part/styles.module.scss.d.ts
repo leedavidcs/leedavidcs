@@ -10,3 +10,5 @@ export const skills: string;
 export const skillsSection: string;
 export const skillsSubsection: string;
 export const summary: string;
+export const uc: string;
+export const university: string;

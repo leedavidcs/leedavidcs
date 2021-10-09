@@ -32,16 +32,16 @@
 }
 
 .qualifications {
-	padding: 12px;
+	padding: 10px;
 	flex-grow: 1;
 }
 
 .skills {
 	box-sizing: border-box;
-	padding: 12px;
+	padding: 10px;
 	background-color: var(--brand);
 	color: var(--on-secondary);
-	width: 240px;
+	width: 252px;
 	height: 100%;
 }
 
@@ -62,6 +62,17 @@
 
 .skillsSubsection {
 	margin-bottom: 8px;
+	letter-spacing: -0.009px;
+
+}
+
+.university {
+	font-size: 14px;
+	letter-spacing: -0.02px;
+
+	.uc {
+		font-size: 14px;
+	}
 }
 
 .professionalExperience {

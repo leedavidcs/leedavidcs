@@ -21,16 +21,14 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 				</Section>
 				<Section className={clsx(classes.skillsSection, classes.summary)} title="Summary">
 					<p>
-						Full Stack Engineer, with hands-on experience in start-ups, serving various
+						Full Stack Engineer with extensive experience in start-ups, serving various
 						key roles in software development.
 					</p>
+					<p>Advanced expertise in TypeScript and Node.js with React and GraphQL.</p>
 					<p>
-						Advanced expertise in TypeScript and Node.js development with React and
-						GraphQL.
-					</p>
-					<p>
-						Demonstrated skill in researching emerging technologies, streamlining
-						existing processes, improving SEO and collaborating in dynamic environments.
+						Demonstrated skill in architecting greenfield applications, researching
+						emerging technologies, improving the developer experience, increasing SEO
+						and collaborating in dynamic teams.
 					</p>
 				</Section>
 				<Section className={classes.skillsSection} title="Skills">
@@ -53,31 +51,38 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						subheader="Frontend"
 						subheaderColor={colors.secondary}
 					>
-						HTML5, CSS3, React, Apollo Client, Urql, CSS-in-JS (Styled-Components,
-						Linaria, Emotion), Sass, Redux, Visx, D3, Framer-Motion, Storybook,
-						React-Three-Fiber, React-Window
+						HTML5, CSS3, React, Apollo Client, Urql, Styled-Components, Tailwind CSS,
+						Visx, D3, Storybook, Framer-Motion, Redux, React-Three-Fiber, React-Window,
+						Slate
 					</SubSection>
 					<SubSection
 						className={classes.skillsSubsection}
 						subheader="Backend"
 						subheaderColor={colors.secondary}
 					>
-						Node.js, GraphQL, Nexus, Prisma, Apollo Server, GraphQL-Tools, Koa, Express,
-						Redis, Postgres, MongoDB, Socket.io, Serverless, DataLoader
+						Node.js, GraphQL, Apollo Server, Redis, Postgres, Socket.io, MongoDB,
+						Prisma, Nexus, Express, Serverless, DataLoader
 					</SubSection>
 					<SubSection
 						className={classes.skillsSubsection}
 						subheader="Tooling + Misc."
 						subheaderColor={colors.secondary}
 					>
-						Linux, Git, Figma, Webpack, Rollup, GraphQL-Codegen, Docker, Trello, Jira,
-						Confluence, Nodemailer, Mjml, Algolia, Stripe, Twilio, Google Maps, Github
-						Actions, Travis, Jest, ESLint, Prettier, Lerna, Vercel, Insomnia
+						Linux, Git, Figma, Webpack, Docker, GraphQL-Codegen, Github Actions, Jira,
+						Confluence, Nodemailer, Vercel, Stripe, Twilio, Algolia, Cloudinary,
+						Planetscale, Upstash, Amplitude, Google Analytics, Sentry, Postmark,
+						Cypress, Jest, ESLint, Prettier, Lerna, Netlify, Cloudflare, RDS, Lambda,
+						S3, CloudFront, CloudWatch
 					</SubSection>
 				</Section>
 				<Section className={classes.skillsSection} title="Education">
 					<SubSection
-						title="University of California, San Diego"
+						title={
+							<span className={classes.university}>
+								<span className={classes.uc}>University of California,</span> San
+								Diego
+							</span>
+						}
 						subheader="BS in Computer Science"
 						subheaderColor={colors.secondary}
 						timeInfo="Graduated: June 2017"
@@ -103,18 +108,25 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 					>
 						<Ul>
 							<Ul.Li>
-								Ported the frontend from a SPA-Parcel app to Next.js, TypeScript,
-								Apollo, Styled-Components, GraphQL-Codegen and Jest in my first
-								month. Simultaneously improved web vitals, a11y and SEO on
-								Lighthouse to &gt; 90% on all metrics, and added 70% test-coverage.
+								Ported the frontend from a SPA-Parcel app to Next.js, Apollo,
+								Styled-Components, Storybook and Codegen. Improved all Lighthouse
+								metrics from 20 to 90, and coverage from 0% to 70%.
+							</Ul.Li>
+							<Ul.Li>
+								Architected and built dev.page with the Next.js, Apollo,
+								Styled-Components, Storybook, Codegen and Tailwind CSS.
+							</Ul.Li>
+							<Ul.Li>
+								Built Openbase package pages, category pages, user-profile pages,
+								homepage and search.
 							</Ul.Li>
 							<Ul.Li>
 								Created a redirect service with Serverless to handle redirects from
 								old URLs for SEO.
 							</Ul.Li>
 							<Ul.Li>
-								Built pages for users to browse npm packages, that also improved
-								crawlability for GoogleBot.
+								Suggested then created multiple product features to drive user
+								acquisition and retention.
 							</Ul.Li>
 						</Ul>
 					</SubSection>
@@ -161,15 +173,10 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 								depth limits.
 							</Ul.Li>
 							<Ul.Li>
-								Implemented all GraphQL resolvers for full-text search with Algolia,
-								emails with Nodemailer, subscriptions and payouts with Stripe,
-								presigned URL image uploads with AWS S3, business hour timezones
-								with Google Maps, and entity CRUD with Prisma.
-							</Ul.Li>
-							<Ul.Li>
-								Set up an automated CI pipeline, with lint, test, build and deploy
-								steps to preview / staging / production environments using Github
-								Actions, Vercel, ESLint and Jest.
+								Implemented all GraphQL resolvers for: full-text search with
+								Algolia, emails with Nodemailer, subscriptions and payouts with
+								Stripe, presigned URL image uploads with AWS S3, business hour
+								timezones with Google Maps, and entity CRUD with Nexus and Prisma.
 							</Ul.Li>
 						</Ul>
 					</SubSection>
@@ -222,9 +229,9 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 							<Ul.Li>
 								Mentored Junior Frontend Engineers; worked with project managers in
 								driving requirements and timelines; talked to clients directly to
-								assist integration; and organized and led meetings with QA,
-								production and the dev-ops teams to coordinate successful releases
-								and milestones.
+								assist integration; and organized and led meetings with QA, graphics
+								and the dev-ops teams to coordinate successful releases and
+								milestones.
 							</Ul.Li>
 							<Ul.Li>
 								Created a RESTful service for Bassett Furniture&apos;s new consumer
