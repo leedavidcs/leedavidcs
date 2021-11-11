@@ -46,8 +46,8 @@ Below is the base stack that I'm currently using for personal projects. Definite
 [![Prisma CLI](https://img.shields.io/npm/v/@prisma/cli)](https://www.npmjs.com/package/prisma)
 [![Prisma Client](https://img.shields.io/npm/v/@prisma/client)](https://www.npmjs.com/package/@prisma/client)
 * [Nexus.js](https://nexusjs.org/) - GraphQL framework  
-[![Nexus Schema](https://img.shields.io/npm/v/@nexus/schema)](https://www.npmjs.com/package/nexus)
-[![Nexus Prisma](https://img.shields.io/npm/v/nexus-plugin-prisma)](https://www.npmjs.com/package/nexus-plugin-prisma)
+[![Nexus Schema](https://img.shields.io/npm/v/nexus)](https://www.npmjs.com/package/nexus)
+[![Nexus Prisma](https://img.shields.io/npm/v/nexus-prisma)](https://www.npmjs.com/package/nexus-prisma)
 
 ## Testing
 * [Jest](https://jestjs.io/) - JavaScript testing framework  
@@ -58,7 +58,8 @@ Below is the base stack that I'm currently using for personal projects. Definite
 
 ## Cloud
 * [Vercel](https://vercel.com) - Cloud platform for static sites and serverless functions
-* [Redis Labs](https://redislabs.com) - Redis on the cloud
-* [RDS](https://aws.amazon.com/rds/) - Relational database on the cloud (where my postgres goes)
+* [PlanetScale](https://planetscale.com/) - Relational serverless database platform
+* [Upstash](https://upstash.com/) - Serverless database for Redis
 * [S3](https://aws.amazon.com/s3/) - Simple storage service
-* [Algolia](https://www.algolia.com/) - Text search
+* [Cloudinary](https://cloudinary.com/) - Media storage and optimization
+* [Algolia](https://www.algolia.com/) - Search and discovery
