@@ -60,7 +60,7 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						subheader="Backend"
 						subheaderColor={colors.secondary}
 					>
-						Node.js, GraphQL, Apollo Server, Redis, Postgres, Socket.io, MongoDB,
+						Node.js, GraphQL, Apollo Server, Redis, Postgres, MongoDB, Socket.io,
 						Prisma, Nexus, Express, Serverless, DataLoader
 					</SubSection>
 					<SubSection
@@ -68,11 +68,11 @@ export const Resume = forwardRef<HTMLDivElement>((__, ref) => {
 						subheader="Tooling + Misc."
 						subheaderColor={colors.secondary}
 					>
-						Linux, Git, Figma, Webpack, Docker, GraphQL-Codegen, Github Actions, Jira,
-						Confluence, Nodemailer, Vercel, Stripe, Twilio, Algolia, Cloudinary,
-						Planetscale, Upstash, Amplitude, Google Analytics, Sentry, Postmark,
-						Cypress, Jest, ESLint, Prettier, Lerna, Netlify, Cloudflare, RDS, Lambda,
-						S3, CloudFront, CloudWatch
+						Linux, Git, Github Actions, Turborepo, Lerna, pnpm workspaces, Docker, Jest,
+						Cypress, Webpack, Prettier, ESLint, Jira, Confluence, Notion, Google
+						Analytics, Amplitude, GraphQL-Codegen, Figma, Algolia, Stripe, Twilio,
+						Sentry, Postmark, Cloudinary, Vercel, Netlify, Planetscale, Upstash,
+						Cloudflare, RDS, Lambda, S3, CloudFront, CloudWatch
 					</SubSection>
 				</Section>
 				<Section className={classes.skillsSection} title="Education">
