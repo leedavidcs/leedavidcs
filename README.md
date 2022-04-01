@@ -5,7 +5,7 @@ I am a Software Engineer who enjoys exploring different technologies, improving 
 Learn more at: [leedavidcs.dev](https://leedavidcs.dev).
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=leedavidcs&title=Commit,PullRequest,Repositories,Issues,Followers&theme=onedark" />
+  <img src="https://github-profile-trophy.vercel.app/?username=leedavidcs&theme=onedark" />
 </a>
 
 <img alt="leedavidcs top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leedavidcs&layout=compact&theme=onedark" />
