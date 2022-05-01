@@ -10,12 +10,8 @@ Learn more at: [leedavidcs.dev](https://leedavidcs.dev).
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img alt="leedavidcs" src="https://github-profile-trophy.vercel.app/?username=leedavidcs&theme=onedark" width="660" />
+    <img alt="stats" src="https://github-profile-trophy.vercel.app/?username=leedavidcs&theme=onedark" width="660" />
   </a>
-</p>
-
-<p align="center">
-  <img alt="leedavidcs top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leedavidcs&layout=compact&theme=onedark" />
 </p>
 
 ## Resume
