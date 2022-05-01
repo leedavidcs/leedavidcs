@@ -1,5 +1,9 @@
 <h1 align="center">Hi 👋, I'm David Lee</h1>
 
+I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [Openbase](https://openbase.com).
+
+Learn more at: [leedavidcs.dev](https://leedavidcs.dev).
+
 <p align="center">
   <img alt="leedavidcs" src="./static/gifs/Miniteller-David.gif" height="256" width="256" />
 </p>
@@ -13,10 +17,6 @@
 <p align="center">
   <img alt="leedavidcs top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leedavidcs&layout=compact&theme=onedark" />
 </p>
-
-I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [Openbase](https://openbase.com).
-
-Learn more at: [leedavidcs.dev](https://leedavidcs.dev).
 
 ## Resume
 [resume.leedavidcs.dev](https://resume.leedavidcs.dev)
