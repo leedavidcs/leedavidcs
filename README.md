@@ -35,7 +35,7 @@ Below is the base stack that I'm currently using for personal projects. Definite
 ## Frontend
 * [React.js](https://reactjs.org/) - Library to build UI components  
 [![React.js](https://img.shields.io/npm/v/react)](https://www.npmjs.com/package/react)
-* [Styled-Components](https://styled-components.com/) - Zero-runtime CSS-in-JS  
+* [Styled-Components](https://styled-components.com/) - CSS-in-JS  
 [![Styled-Components](https://img.shields.io/npm/v/styled-components)](https://www.npmjs.com/package/styled-components)
 * [Urql](https://formidable.com/open-source/urql/) - GraphQL client  
 [![Urql](https://img.shields.io/npm/v/urql)](https://www.npmjs.com/package/urql)
