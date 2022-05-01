@@ -1,12 +1,16 @@
 <h1 align="center">Hi 👋, I'm David Lee</h1>
 
+
+
 I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [Openbase](https://openbase.com).
 
 Learn more at: [leedavidcs.dev](https://leedavidcs.dev).
 
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=leedavidcs&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&theme=onedark" />
-</a>
+<p align="left">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img alt="leedavidcs" src="https://github-profile-trophy.vercel.app/?username=leedavidcs&theme=onedark&margin-w=15&margin-h=15&column=7" />
+  </a>
+</p>
 
 <img alt="leedavidcs top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leedavidcs&layout=compact&theme=onedark" />
 
