@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm David Lee</h1>
 
 <p align="center">
-  <img alt="leedavidcs" src="./static/gifs/Miniteller-David.gif" height="156" width="156 />
+  <img alt="leedavidcs" src="./static/gifs/Miniteller-David.gif" height="156" width="156" />
 </p>
 
 I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [Openbase](https://openbase.com).
