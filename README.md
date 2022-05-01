@@ -4,17 +4,19 @@
   <img alt="leedavidcs" src="./static/gifs/Miniteller-David.gif" height="256" width="256" />
 </p>
 
-I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [Openbase](https://openbase.com).
-
-Learn more at: [leedavidcs.dev](https://leedavidcs.dev).
-
-<p align="left">
+<p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img alt="leedavidcs" src="https://github-profile-trophy.vercel.app/?username=leedavidcs&theme=onedark&margin-w=15&margin-h=15&column=7" />
   </a>
 </p>
 
-<img alt="leedavidcs top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leedavidcs&layout=compact&theme=onedark" />
+<p align="center">
+  <img alt="leedavidcs top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leedavidcs&layout=compact&theme=onedark" />
+</p>
+
+I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [Openbase](https://openbase.com).
+
+Learn more at: [leedavidcs.dev](https://leedavidcs.dev).
 
 ## Resume
 [resume.leedavidcs.dev](https://resume.leedavidcs.dev)
