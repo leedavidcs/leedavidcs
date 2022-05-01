@@ -74,6 +74,7 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [Storybook](https://storybook.js.org/) + [Storyshots](https://storybook.js.org/docs/react/workflows/snapshot-testing) - Tool for developing UI components in isolation  
 [![Storybook](https://img.shields.io/npm/v/storybook)](https://www.npmjs.com/package/storybook)
 [![Storyshots](https://img.shields.io/npm/v/@storybook/addon-storyshots)](https://www.npmjs.com/package/@storybook/addon-storyshots)
+[![Chromatic](https://img.shields.io/npm/v/chromatic)](https://www.npmjs.com/package/chromatic)
 
 ## Cloud
 * [Vercel](https://vercel.com) - Cloud platform for static sites and serverless functions
