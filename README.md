@@ -76,15 +76,20 @@ Below is the base stack that I'm currently using for personal projects. Definite
 [![Storyshots](https://img.shields.io/npm/v/@storybook/addon-storyshots)](https://www.npmjs.com/package/@storybook/addon-storyshots)
 [![Chromatic](https://img.shields.io/npm/v/chromatic)](https://www.npmjs.com/package/chromatic)
 
-## Cloud
+## Services
 * [Vercel](https://vercel.com) - Cloud platform for static sites and serverless functions
 * [PlanetScale](https://planetscale.com/) - Relational serverless database platform
 * [Upstash](https://upstash.com/) - Serverless database for Redis
 * [Cloudinary](https://cloudinary.com/) - Media storage and optimization
 * [Algolia](https://www.algolia.com/) - Search and discovery
+* [Google Analytics](https://analytics.google.com/) - Google analytics
+* [Amplitude](https://amplitude.com/) - Product analytics
+* [Sentry](https://sentry.io/) - Application monitoring + error tracking
+* [Datadog](https://www.datadoghq.com/) - Cloud monitoring
+* [Stripe](https://stripe.com/) - Payment processing
 
 ## Misc
-* [Pnpm](https://pnpm.io/) - Package manager  
+* [Pnpm](https://pnpm.io/) - Package manager + monorepo workspaces  
 [![Pnpm](https://img.shields.io/npm/v/pnpm)](https://www.npmjs.com/package/pnpm)
 * [Turborepo](https://turborepo.org/) - Monorepo build system  
 [![Turborepo](https://img.shields.io/npm/v/turbo)](https://www.npmjs.com/package/turbo)
