@@ -1,8 +1,8 @@
-<h1 align="center">Hi 👋, I'm David Lee</h1>
+<h1 align="center">Hi <img alt="👋" src="./static/gifs/hi-wave.gif" width="30">, I'm David Lee</h1>
 
-I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [Openbase](https://openbase.com).
+I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [MakePurple](https://makepurple.com).
 
-Learn more at: [leedavidcs.dev](https://leedavidcs.dev).
+Learn more at: [makepurple.com/blog](https://makepurple.com/blog).
 
 <p align="center">
   <img alt="leedavidcs" src="./static/gifs/Miniteller-David.gif" height="256" width="256" />
