@@ -78,11 +78,11 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [Upstash](https://upstash.com/) - Serverless database for Redis
 * [Cloudinary](https://cloudinary.com/) - Media storage and optimization
 * [Algolia](https://www.algolia.com/) - Search and discovery
-* [Google Analytics](https://analytics.google.com/) - Google analytics
 * [Amplitude](https://amplitude.com/) - Product analytics
 * [Sentry](https://sentry.io/) - Application monitoring + error tracking
 * [Datadog](https://www.datadoghq.com/) - Cloud monitoring
 * [Stripe](https://stripe.com/) - Payment processing
+* [Fathom](https://usefathom.com/) - Website analytics
 
 ## Misc
 * [Pnpm](https://pnpm.io/) - Package manager + monorepo workspaces  
