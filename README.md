@@ -83,6 +83,7 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [Datadog](https://www.datadoghq.com/) - Cloud monitoring
 * [Stripe](https://stripe.com/) - Payment processing
 * [Fathom](https://usefathom.com/) - Website analytics
+* [Axiom](https://www.axiom.co/) - Log management
 
 ## Misc
 * [Pnpm](https://pnpm.io/) - Package manager + monorepo workspaces  
