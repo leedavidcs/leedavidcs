@@ -84,6 +84,7 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [Stripe](https://stripe.com/) - Payment processing
 * [Fathom](https://usefathom.com/) - Website analytics
 * [Axiom](https://www.axiom.co/) - Log management
+* [Octokit](https://github.com/octokit) - GitHub API
 
 ## Misc
 * [Pnpm](https://pnpm.io/) - Package manager + monorepo workspaces  
