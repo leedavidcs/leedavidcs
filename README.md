@@ -27,6 +27,8 @@ Below is the base stack that I'm currently using for personal projects. Definite
 ## Frameworks
 * [Next.js](https://nextjs.org/) - Static/SSR React framework  
 [![Next.js](https://img.shields.io/npm/v/next)](https://www.npmjs.com/package/next)
+* [Nest.js](https://nestjs.com) - Node.js Framework  
+[![Nest.js](https://img.shields.io/npm/v/@nestjs/core)](https://www.npmjs.com/package/@nestjs/core)
 
 ## Frontend
 * [React.js](https://reactjs.org/) - Library to build UI components  
@@ -49,8 +51,6 @@ Below is the base stack that I'm currently using for personal projects. Definite
 [![Radix UI](https://img.shields.io/npm/v/@radix-ui/react-accordion)](https://www.npmjs.com/package/@radix-ui/react-accordion)
 
 ## Backend
-* [Nest.js](https://nestjs.com) - Node.js Framework  
-[![Nest.js](https://img.shields.io/npm/v/@nestjs/core)](https://www.npmjs.com/package/@nestjs/core)
 * [Apollo Server](https://www.apollographql.com/docs/apollo-server/) - GraphQL server  
 [![Apollo Server](https://img.shields.io/npm/v/apollo-server-micro)](https://www.npmjs.com/package/apollo-server-micro)
 * [GraphQL](https://graphql.org/) - Query language for APIs  
