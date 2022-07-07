@@ -75,20 +75,20 @@ Below is the base stack that I'm currently using for personal projects. Definite
 [![Chromatic](https://img.shields.io/npm/v/chromatic)](https://www.npmjs.com/package/chromatic)
 
 ## Services
-* [Vercel](https://vercel.com) - Cloud platform for static sites and serverless functions
-* [PlanetScale](https://planetscale.com/) - Relational serverless database platform
-* [Upstash](https://upstash.com/) - Serverless database for Redis
-* [Cloudinary](https://cloudinary.com/) - Media storage and optimization
 * [Algolia](https://www.algolia.com/) - Search and discovery
 * [Amplitude](https://amplitude.com/) - Product analytics
-* [Sentry](https://sentry.io/) - Application monitoring + error tracking
-* [Datadog](https://www.datadoghq.com/) - Cloud monitoring
-* [Stripe](https://stripe.com/) - Payment processing
-* [Fathom](https://usefathom.com/) - Website analytics
 * [Axiom](https://www.axiom.co/) - Log management
-* [Octokit](https://github.com/octokit) - GitHub API
 * [CloudAMQP](https://www.cloudamqp.com/) - Hosted RabbitMQ
+* [Cloudinary](https://cloudinary.com/) - Media storage and optimization
+* [Datadog](https://www.datadoghq.com/) - Cloud monitoring
 * [DigitalOcean](https://www.digitalocean.com/) - Cloud hosting
+* [Fathom](https://usefathom.com/) - Website analytics
+* [Octokit](https://github.com/octokit) - GitHub API
+* [PlanetScale](https://planetscale.com/) - Relational serverless database platform
+* [Sentry](https://sentry.io/) - Application monitoring + error tracking
+* [Stripe](https://stripe.com/) - Payment processing
+* [Upstash](https://upstash.com/) - Serverless database for Redis
+* [Vercel](https://vercel.com) - Cloud platform for static sites and serverless functions
 
 ## Misc
 * [Pnpm](https://pnpm.io/) - Package manager + monorepo workspaces  
