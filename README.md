@@ -88,6 +88,7 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [Axiom](https://www.axiom.co/) - Log management
 * [Octokit](https://github.com/octokit) - GitHub API
 * [CloudAMQP](https://www.cloudamqp.com/) - Hosted RabbitMQ
+* [DigitalOcean](https://www.digitalocean.com/) - Cloud hosting
 
 ## Misc
 * [Pnpm](https://pnpm.io/) - Package manager + monorepo workspaces  
