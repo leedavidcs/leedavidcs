@@ -84,10 +84,10 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [DigitalOcean](https://www.digitalocean.com/) - Cloud hosting
 * [Fathom](https://usefathom.com/) - Website analytics
 * [Octokit](https://github.com/octokit) - GitHub API
-* [PlanetScale](https://planetscale.com/) - Relational serverless database platform
+* [PlanetScale](https://planetscale.com/) - Serverless sharded MySQL
 * [Sentry](https://sentry.io/) - Application monitoring + error tracking
 * [Stripe](https://stripe.com/) - Payment processing
-* [Upstash](https://upstash.com/) - Serverless database for Redis
+* [Upstash](https://upstash.com/) - Serverless Redis
 * [Vercel](https://vercel.com) - Cloud platform for static sites and serverless functions
 
 ## Misc
