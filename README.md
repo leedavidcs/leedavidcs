@@ -87,6 +87,7 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [Fathom](https://usefathom.com/) - Website analytics
 * [Axiom](https://www.axiom.co/) - Log management
 * [Octokit](https://github.com/octokit) - GitHub API
+* [CloudAMQP](https://www.cloudamqp.com/) - Hosted RabbitMQ
 
 ## Misc
 * [Pnpm](https://pnpm.io/) - Package manager + monorepo workspaces  
