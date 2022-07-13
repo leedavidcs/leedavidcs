@@ -51,18 +51,26 @@ Below is the base stack that I'm currently using for personal projects. Definite
 [![Radix UI](https://img.shields.io/npm/v/@radix-ui/react-accordion)](https://www.npmjs.com/package/@radix-ui/react-accordion)
 
 ## Backend
+
+* [Prisma](https://www.prisma.io/) - Database ORM  
+[![Prisma CLI](https://img.shields.io/npm/v/@prisma/cli)](https://www.npmjs.com/package/prisma)
+[![Prisma Client](https://img.shields.io/npm/v/@prisma/client)](https://www.npmjs.com/package/@prisma/client)
+* [Next Auth](https://next-auth.js.org/) - Authentication  
+[![Next Auth](https://img.shields.io/npm/v/next-auth)](https://www.npmjs.com/package/next-auth)
+
+### GraphQL
 * [Apollo Server](https://www.apollographql.com/docs/apollo-server/) - GraphQL server  
 [![Apollo Server](https://img.shields.io/npm/v/apollo-server-micro)](https://www.npmjs.com/package/apollo-server-micro)
 * [GraphQL](https://graphql.org/) - Query language for APIs  
 [![GraphQL](https://img.shields.io/npm/v/graphql)](https://www.npmjs.com/package/graphql)
-* [Prisma](https://www.prisma.io/) - Database toolkit  
-[![Prisma CLI](https://img.shields.io/npm/v/@prisma/cli)](https://www.npmjs.com/package/prisma)
-[![Prisma Client](https://img.shields.io/npm/v/@prisma/client)](https://www.npmjs.com/package/@prisma/client)
 * [Nexus.js](https://nexusjs.org/) - GraphQL schema library  
 [![Nexus Schema](https://img.shields.io/npm/v/nexus)](https://www.npmjs.com/package/nexus)
 [![Nexus Prisma](https://img.shields.io/npm/v/nexus-prisma)](https://www.npmjs.com/package/nexus-prisma)
-* [Next Auth](https://next-auth.js.org/) - Authentication  
-[![Next Auth](https://img.shields.io/npm/v/next-auth)](https://www.npmjs.com/package/next-auth)
+
+### RPC
+* [tRPC](https://graphql.org/) - E2E typesafe APIs  
+[![tRPC Next](https://img.shields.io/npm/v/@trpc/next)](https://www.npmjs.com/package/@trpc/next)
+[![tRPC Server](https://img.shields.io/npm/v/@trpc/server)](https://www.npmjs.com/package/@trpc/server)
 
 ## Testing
 * [Jest](https://jestjs.io/) - JavaScript testing framework  
