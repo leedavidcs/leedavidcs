@@ -68,7 +68,7 @@ Below is the base stack that I'm currently using for personal projects. Definite
 [![Nexus Prisma](https://img.shields.io/npm/v/nexus-prisma)](https://www.npmjs.com/package/nexus-prisma)
 
 ### RPC
-* [tRPC](https://graphql.org/) - E2E typesafe APIs  
+* [tRPC](https://trpc.io/) - E2E typesafe APIs  
 [![tRPC Next](https://img.shields.io/npm/v/@trpc/next)](https://www.npmjs.com/package/@trpc/next)
 [![tRPC Server](https://img.shields.io/npm/v/@trpc/server)](https://www.npmjs.com/package/@trpc/server)
 
