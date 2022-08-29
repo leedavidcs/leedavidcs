@@ -87,6 +87,7 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [Amplitude](https://amplitude.com/) - Product analytics
 * [Axiom](https://www.axiom.co/) - Log management
 * [CloudAMQP](https://www.cloudamqp.com/) - Hosted RabbitMQ
+* [Cloudflare Workers](https://workers.cloudflare.com/) - Serverless on the Edge
 * [Cloudinary](https://cloudinary.com/) - Media storage and optimization
 * [Datadog](https://www.datadoghq.com/) - Cloud monitoring
 * [DigitalOcean](https://www.digitalocean.com/) - Cloud hosting
