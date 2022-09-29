@@ -27,7 +27,9 @@ Below is the base stack that I'm currently using for personal projects. Definite
 ## Frameworks
 * [Next.js](https://nextjs.org/) - Static/SSR React framework  
 [![Next.js](https://img.shields.io/npm/v/next)](https://www.npmjs.com/package/next)
-* [Nest.js](https://nestjs.com) - Node.js Framework  
+* [Astro](https://astro.build/) - Zero JS, component island architecture web framework  
+[![Astro](https://img.shields.io/npm/v/astro)](https://www.npmjs.com/package/astro)
+* [Nest.js](https://nestjs.com) - Node.js framework  
 [![Nest.js](https://img.shields.io/npm/v/@nestjs/core)](https://www.npmjs.com/package/@nestjs/core)
 
 ## Frontend
