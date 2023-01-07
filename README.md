@@ -2,7 +2,7 @@
 
 I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [@pluv/io](https://github.com/pluv-io/pluv).
 
-Learn more at: [makepurple.com/blog](https://makepurple.com/blog).
+Learn more at about me at: [makepurple.com/blog](https://makepurple.com/blog).
 
 <p align="center">
   <img alt="leedavidcs" src="./static/gifs/Miniteller-David.gif" height="256" width="256" />
