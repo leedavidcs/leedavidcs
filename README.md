@@ -1,6 +1,6 @@
 <h1 align="center">Hi <img alt="👋" src="./static/gifs/hi-wave.gif" width="30">, I'm David Lee</h1>
 
-I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [MakePurple](https://makepurple.com).
+I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [@pluv/io](https://github.com/pluv-io/pluv).
 
 Learn more at: [makepurple.com/blog](https://makepurple.com/blog).
 
