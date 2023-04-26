@@ -35,16 +35,16 @@ Below is the base stack that I'm currently using for personal projects. Definite
 ## Frontend
 * [React.js](https://reactjs.org/) - Library to build UI components  
 [![React.js](https://img.shields.io/npm/v/react)](https://www.npmjs.com/package/react)
+* [TailwindCSS](https://tailwindcss.com/) - Utility CSS framework  
+[![TailwindCSS](https://img.shields.io/npm/v/tailwindcss)](https://www.npmjs.com/package/tailwindcss)
 * [Styled-Components](https://styled-components.com/) - CSS-in-JS  
 [![Styled-Components](https://img.shields.io/npm/v/styled-components)](https://www.npmjs.com/package/styled-components)
+* [Twin Macro](https://github.com/ben-rogerson/twin.macro) - TailwindCSS + CSS-in-JS  
+[![Twin Macro](https://img.shields.io/npm/v/twin.macro)](https://www.npmjs.com/package/twin.macro)
 * [Urql](https://formidable.com/open-source/urql/) - GraphQL client  
 [![Urql](https://img.shields.io/npm/v/urql)](https://www.npmjs.com/package/urql)
 * [Framer-Motion](https://www.framer.com/docs/) - Animation, gestures, transforms  
 [![Framer-Motion](https://img.shields.io/npm/v/framer-motion)](https://www.npmjs.com/package/framer-motion)
-* [TailwindCSS](https://tailwindcss.com/) - CSS framework  
-[![TailwindCSS](https://img.shields.io/npm/v/tailwindcss)](https://www.npmjs.com/package/tailwindcss)
-* [Twin Macro](https://github.com/ben-rogerson/twin.macro) - TailwindCSS + CSS-in-JS  
-[![Twin Macro](https://img.shields.io/npm/v/twin.macro)](https://www.npmjs.com/package/twin.macro)
 * [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) - React renderer for three.js  
 [![React Three Fiber](https://img.shields.io/npm/v/@react-three/fiber)](https://www.npmjs.com/package/@react-three/fiber)
 * [Headless UI](https://headlessui.dev/) - Accessible UI primitives  
@@ -62,7 +62,7 @@ Below is the base stack that I'm currently using for personal projects. Definite
 
 ### GraphQL
 * [Apollo Server](https://www.apollographql.com/docs/apollo-server/) - GraphQL server  
-[![Apollo Server](https://img.shields.io/npm/v/apollo-server-micro)](https://www.npmjs.com/package/apollo-server-micro)
+[![Apollo Server](https://img.shields.io/npm/v/@apollo/server)](https://www.npmjs.com/package/@apollo/server)
 * [GraphQL](https://graphql.org/) - Query language for APIs  
 [![GraphQL](https://img.shields.io/npm/v/graphql)](https://www.npmjs.com/package/graphql)
 * [Nexus.js](https://nexusjs.org/) - GraphQL schema library  
@@ -77,8 +77,8 @@ Below is the base stack that I'm currently using for personal projects. Definite
 ## Testing
 * [Jest](https://jestjs.io/) - JavaScript testing framework  
 [![Jest](https://img.shields.io/npm/v/jest)](https://www.npmjs.com/package/jest)
-* [Cypress](https://www.cypress.io/) - E2E testing framework  
-[![Cypress](https://img.shields.io/npm/v/cypress)](https://www.npmjs.com/package/cypress)
+* [Playwright](https://playwright.dev/) - E2E testing framework  
+[![Playwright](https://img.shields.io/npm/v/playwright)](https://www.npmjs.com/package/playwright)
 * [Storybook](https://storybook.js.org/) + [Storyshots](https://storybook.js.org/docs/react/workflows/snapshot-testing) + [Chromatic](https://www.chromatic.com/) - Tools for developing UI components in isolation  
 [![Storybook](https://img.shields.io/npm/v/storybook)](https://www.npmjs.com/package/storybook)
 [![Storyshots](https://img.shields.io/npm/v/@storybook/addon-storyshots)](https://www.npmjs.com/package/@storybook/addon-storyshots)
