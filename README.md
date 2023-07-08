@@ -1,6 +1,6 @@
 <h1 align="center">Hi <img alt="👋" src="./static/gifs/hi-wave.gif" width="30">, I'm David Lee</h1>
 
-I am a Software Engineer who enjoys exploring different technologies, improving the developer experience and working on [@pluv/io](https://github.com/pluv-io/pluv).
+I'm working on things I'd like to have. Nowadays, that's self-hosted, typesafe realtime with [@pluv/io](https://github.com/pluv-io/pluv).
 
 Learn more at about me at: [makepurple.com/blog](https://makepurple.com/blog).
 
@@ -18,17 +18,15 @@ Learn more at about me at: [makepurple.com/blog](https://makepurple.com/blog).
 [resume.leedavidcs.dev](https://resume.leedavidcs.dev)
 
 # Project Stack
-Below is the base stack that I'm currently using for personal projects. Definitely try it out.
+Below are some of my favorite libraries and tools that I'm currently using for personal projects and for work. Definitely check them out.
 
 ## Language
 * [TypeScript](https://www.typescriptlang.org/) - JavaScript superset with static types  
 [![TypeScript](https://img.shields.io/npm/v/typescript)](https://www.npmjs.com/package/typescript)
 
 ## Frameworks
-* [Next.js](https://nextjs.org/) - Static/SSR React framework  
+* [Next.js](https://nextjs.org/) - React.js framework  
 [![Next.js](https://img.shields.io/npm/v/next)](https://www.npmjs.com/package/next)
-* [Astro](https://astro.build/) - Zero JS, component island architecture web framework  
-[![Astro](https://img.shields.io/npm/v/astro)](https://www.npmjs.com/package/astro)
 * [Nest.js](https://nestjs.com) - Node.js framework  
 [![Nest.js](https://img.shields.io/npm/v/@nestjs/core)](https://www.npmjs.com/package/@nestjs/core)
 
@@ -47,8 +45,6 @@ Below is the base stack that I'm currently using for personal projects. Definite
 [![Framer-Motion](https://img.shields.io/npm/v/framer-motion)](https://www.npmjs.com/package/framer-motion)
 * [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) - React renderer for three.js  
 [![React Three Fiber](https://img.shields.io/npm/v/@react-three/fiber)](https://www.npmjs.com/package/@react-three/fiber)
-* [Headless UI](https://headlessui.dev/) - Accessible UI primitives  
-[![Headless UI](https://img.shields.io/npm/v/@headlessui/react)](https://www.npmjs.com/package/@headlessui/react)
 * [Radix UI](https://www.radix-ui.com/) - Accessible UI primitives  
 [![Radix UI](https://img.shields.io/npm/v/@radix-ui/react-accordion)](https://www.npmjs.com/package/@radix-ui/react-accordion)
 
@@ -57,6 +53,9 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [Prisma](https://www.prisma.io/) - Database ORM  
 [![Prisma CLI](https://img.shields.io/npm/v/@prisma/cli)](https://www.npmjs.com/package/prisma)
 [![Prisma Client](https://img.shields.io/npm/v/@prisma/client)](https://www.npmjs.com/package/@prisma/client)
+* [Drizzle ORM](https://orm.drizzle.team/) - Database ORM  
+[![Drizzle CLI](https://img.shields.io/npm/v/@prisma/cli)](https://www.npmjs.com/package/drizzle-kit)
+[![Drizzle ORM](https://img.shields.io/npm/v/@prisma/cli)](https://www.npmjs.com/package/drizzle-orm)
 * [Next Auth](https://next-auth.js.org/) - Authentication  
 [![Next Auth](https://img.shields.io/npm/v/next-auth)](https://www.npmjs.com/package/next-auth)
 
@@ -68,6 +67,10 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [Nexus.js](https://nexusjs.org/) - GraphQL schema library  
 [![Nexus Schema](https://img.shields.io/npm/v/nexus)](https://www.npmjs.com/package/nexus)
 [![Nexus Prisma](https://img.shields.io/npm/v/nexus-prisma)](https://www.npmjs.com/package/nexus-prisma)
+
+### Infrastructure
+* [CDKTF](https://developer.hashicorp.com/terraform/cdktf) - CDK for [Terraform](https://www.terraform.io/)  
+[![CDKTF](https://img.shields.io/npm/v/graphql)](https://www.npmjs.com/package/cdktf)
 
 ### RPC
 * [tRPC](https://trpc.io/) - E2E typesafe APIs  
@@ -92,7 +95,6 @@ Below is the base stack that I'm currently using for personal projects. Definite
 * [Cloudflare Workers](https://workers.cloudflare.com/) - Serverless on the Edge
 * [Cloudinary](https://cloudinary.com/) - Media storage and optimization
 * [Datadog](https://www.datadoghq.com/) - Cloud monitoring
-* [DigitalOcean](https://www.digitalocean.com/) - Cloud hosting
 * [Fathom](https://usefathom.com/) - Website analytics
 * [Octokit](https://github.com/octokit) - GitHub API
 * [PlanetScale](https://planetscale.com/) - Serverless sharded MySQL
