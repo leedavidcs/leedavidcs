@@ -5,7 +5,7 @@ I'm working on things I'd like to have. Nowadays, that's self-hosted, typesafe r
 Learn more at about me at: [makepurple.com/blog](https://makepurple.com/blog).
 
 <p align="center">
-  <kbd>
+  <kbd height="196" width="196">
     <img alt="leedavidcs" src="./static/gifs/Miniteller-David.gif" height="196" width="196" />
   </kbd>
 </p>
