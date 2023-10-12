@@ -10,7 +10,7 @@ Learn more at about me at: [makepurple.com/blog](https://makepurple.com/blog).
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img alt="stats" src="https://github-profile-trophy.vercel.app/?username=leedavidcs&theme=onedark&title=Reviews,Commits,PullRequest,Repositories,Followers,Stars" width="660" />
+    <img alt="stats" src="https://github-profile-trophy.vercel.app/?username=leedavidcs&theme=onedark&title=Reviews,Commits,PullRequest,Repositories,Followers,Stars,Experience,Organizations" width="660" />
   </a>
 </p>
 
