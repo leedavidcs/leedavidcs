@@ -89,22 +89,6 @@ Below are some of my favorite libraries and tools that I'm currently using for p
 [![Storyshots](https://img.shields.io/npm/v/@storybook/addon-storyshots)](https://www.npmjs.com/package/@storybook/addon-storyshots)
 [![Chromatic](https://img.shields.io/npm/v/chromatic)](https://www.npmjs.com/package/chromatic)
 
-## Services
-* [Algolia](https://www.algolia.com/) - Search and discovery
-* [Amplitude](https://amplitude.com/) - Product analytics
-* [Axiom](https://www.axiom.co/) - Log management
-* [CloudAMQP](https://www.cloudamqp.com/) - Hosted RabbitMQ
-* [Cloudflare Workers](https://workers.cloudflare.com/) - Serverless on the Edge
-* [Cloudinary](https://cloudinary.com/) - Media storage and optimization
-* [Datadog](https://www.datadoghq.com/) - Cloud monitoring
-* [Fathom](https://usefathom.com/) - Website analytics
-* [Octokit](https://github.com/octokit) - GitHub API
-* [PlanetScale](https://planetscale.com/) - Serverless sharded MySQL
-* [Sentry](https://sentry.io/) - Application monitoring + error tracking
-* [Stripe](https://stripe.com/) - Payment processing
-* [Upstash](https://upstash.com/) - Serverless Redis
-* [Vercel](https://vercel.com) - Cloud platform for static sites and serverless functions
-
 ## Misc
 * [Pnpm](https://pnpm.io/) - Package manager + monorepo workspaces  
 [![Pnpm](https://img.shields.io/npm/v/pnpm)](https://www.npmjs.com/package/pnpm)
