@@ -37,16 +37,8 @@ Below are some of my favorite libraries and tools that I'm currently using for p
 [![React.js](https://img.shields.io/npm/v/react)](https://www.npmjs.com/package/react)
 * [TailwindCSS](https://tailwindcss.com/) - Utility CSS framework  
 [![TailwindCSS](https://img.shields.io/npm/v/tailwindcss)](https://www.npmjs.com/package/tailwindcss)
-* [Styled-Components](https://styled-components.com/) - CSS-in-JS  
-[![Styled-Components](https://img.shields.io/npm/v/styled-components)](https://www.npmjs.com/package/styled-components)
-* [Twin Macro](https://github.com/ben-rogerson/twin.macro) - TailwindCSS + CSS-in-JS  
-[![Twin Macro](https://img.shields.io/npm/v/twin.macro)](https://www.npmjs.com/package/twin.macro)
 * [Urql](https://formidable.com/open-source/urql/) - GraphQL client  
 [![Urql](https://img.shields.io/npm/v/urql)](https://www.npmjs.com/package/urql)
-* [Framer-Motion](https://www.framer.com/docs/) - Animation, gestures, transforms  
-[![Framer-Motion](https://img.shields.io/npm/v/framer-motion)](https://www.npmjs.com/package/framer-motion)
-* [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) - React renderer for three.js  
-[![React Three Fiber](https://img.shields.io/npm/v/@react-three/fiber)](https://www.npmjs.com/package/@react-three/fiber)
 * [Radix UI](https://www.radix-ui.com/) - Accessible UI primitives  
 [![Radix UI](https://img.shields.io/npm/v/@radix-ui/react-accordion)](https://www.npmjs.com/package/@radix-ui/react-accordion)
 
@@ -60,8 +52,6 @@ Below are some of my favorite libraries and tools that I'm currently using for p
 [![Drizzle ORM](https://img.shields.io/npm/v/@prisma/cli)](https://www.npmjs.com/package/drizzle-orm)
 * [Next Auth](https://next-auth.js.org/) - Authentication  
 [![Next Auth](https://img.shields.io/npm/v/next-auth)](https://www.npmjs.com/package/next-auth)
-
-### GraphQL
 * [Apollo Server](https://www.apollographql.com/docs/apollo-server/) - GraphQL server  
 [![Apollo Server](https://img.shields.io/npm/v/@apollo/server)](https://www.npmjs.com/package/@apollo/server)
 * [GraphQL](https://graphql.org/) - Query language for APIs  
