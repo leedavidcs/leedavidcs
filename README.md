@@ -14,3 +14,4 @@ I'm working on things I'd like to have. Nowadays, that's self-hosted, typesafe r
   </a>
 </p>
 
+<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=leedavidcs&theme=prussian" alt="leedavidcs streaks" width="360" /></p>
