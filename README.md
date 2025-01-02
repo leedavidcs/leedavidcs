@@ -13,5 +13,3 @@ I'm working on things I'd like to have. Nowadays, that's self-hosted, typesafe r
     <img alt="stats" src="https://github-profile-trophy.vercel.app/?username=leedavidcs&theme=onedark&title=Reviews,Commits,PullRequest,Repositories,Followers,Stars,Experience,Organizations&row=2&column=4" width="420" />
   </a>
 </p>
-
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=leedavidcs&theme=prussian" alt="leedavidcs streaks" width="360" /></p>
